@@ -10,15 +10,16 @@ import scipy
 from scipy import spatial
 import json
 from matplotlib import cm as CM
-from tqdm import tqdm
 from os import walk
+import time
 
 class GaussianParse():
-    def __init__(self, is_sample_img = True, is_create_tree = True):
+    def __init__(self, is_sample_img = True, is_create_tree = True,count = False,blur=0.05, dpi=300):
         self.sample_img = is_sample_img
         self.create_folder_tree = is_create_tree
-        self.blur_constaint = 0.05
-        self.dpi_constaint = 300
+        self.blur_constaint = blur
+        self.dpi_constaint = dpi
+        self.is_count = count
         self.folder_tree = []
 
 
@@ -89,25 +90,32 @@ class GaussianParse():
         image_path_length = len(self.image_path)
 
         try:
+            index = 0
+            stime = time.time()
             for img_path in self.list_image_paths:
+                index +=1
+                count = 0
+                #Log to user
+                print(index, ": (", img_path, end="),(")
+
                 image_path = img_path[:-3]
                 point_lists = []
                 with open(image_path+"txt",'r') as f:
                     point_lists = f.readlines()
                     f.close()
-                img= plt.imread(img_path.replace('.txt','.jpg'))
+                img= plt.imread(img_path)
                 k = np.zeros((img.shape[0],img.shape[1]))
                 for i in range(0,len(point_lists)):
                     data = point_lists[i].rstrip('\n').split(' ')
                     if int(data[1])<img.shape[0] and int(data[0])<img.shape[1]:
                         k[int(data[1]),int(data[0])]=1
+                        count+=1
                 k = self.gaussian_filter_density(k)
 
-                file_path = image_path+ ".h5"
                 file_extend = image_path[image_path_length:]
-
                 h5_path = self.density_h5_path + "/" + file_extend
-                with h5py.File(h5_path, 'w') as hf:
+                
+                with h5py.File(h5_path+"h5", 'w') as hf:
                         hf['density'] = k
                 if self.sample_img:
                     sample_path  = self.density_img_path+ "/" + file_extend
@@ -116,6 +124,13 @@ class GaussianParse():
                     plt.margins(0, 0)
                     plt.imshow(k, cmap=CM.jet)
                     plt.savefig(sample_path, dpi=self.dpi_constaint, bbox_inches='tight', pad_inches=0)
+
+
+                if self.is_count:
+                    print(count,">",round(k.sum(),3),"),(", end="")
+                print( round(time.time() - stime,3),"s)")
+
+                
 
         except FileNotFoundError as error:
             error = str(error)
