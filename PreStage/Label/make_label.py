@@ -2,7 +2,8 @@ import os
 import glob
 import cv2
 #Change Folder, example: "D:/IT Majors/Thesis Outline/testLabel/"
-direc = "C:/Users/BuiLong/source/CV/density/Demo Data/"
+direc = "C:/Users/BuiLong/source/CV/density/Data/Data_exp"
+
 os.chdir(direc)
 paths = [item for item in os.listdir() if ".jpg" in os.path.basename(item)]
 print(paths)
@@ -80,10 +81,8 @@ for path in paths:
     #show the result
     #cv2.destroyAllWindows()
     #cv2.imshow("Result", img)
-    #cv2.waitKey(0)
     cv2.destroyAllWindows()
 
-    #write file txt
     print(points)
     f = open(fileTxt, 'w')
     f.write(points)
