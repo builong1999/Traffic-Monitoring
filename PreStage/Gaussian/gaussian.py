@@ -1,14 +1,16 @@
+"""
+Author: Long Bui
+Github: https://github.com/builong1999
+"""
 import h5py
 import scipy.io as io
 import PIL as Image
 import numpy as np
 import os
-import glob
 from matplotlib import pyplot as plt
 from scipy.ndimage.filters import gaussian_filter 
 import scipy
 from scipy import spatial
-import json
 from matplotlib import cm as CM
 from os import walk
 import time
@@ -135,4 +137,3 @@ class GaussianParse():
         except FileNotFoundError as error:
             error = str(error)
             raise FileNotFoundError("Error, no density labeled found for: "+ error[38:])
-
