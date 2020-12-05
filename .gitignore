@@ -1,4 +1,4 @@
 __pycache__/
-TrainData/*
-Density/*
-Density_Img/*
+TrainData/
+Density/
+Density_Img/
