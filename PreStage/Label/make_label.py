@@ -27,7 +27,7 @@ class MakeLabel:
             return False, [0, 0]
         for i in range(-2, 2):
             for j in range(-2, 2):
-                img[y+i, x+j] = [0, 0, 255]
+                Image[y+i, x+j] = [0, 0, 255]
         return True, [x, y]
 
     def start(self):
@@ -59,8 +59,10 @@ class MakeLabel:
                         for b in range(-2, 2):
                             img[y + a, x + b] = [0, 255, 0]
             flag, pointTemp = self.AnnotateImage(img)
-            while flag:
+            prev_flag = True
+            while flag and prev_flag:
                 points.append(pointTemp)
+                prev_flag = flag
                 flag, pointTemp = self.AnnotateImage(img)
                 continue
             points_temp = points.copy()
