@@ -9,8 +9,8 @@ class LoadDataset():
                         ratio = 0.8, image_num = True, image_extension = ".jpg" , log='logging.txt',
                         epoch_data = 1,
                         threads = 4):
-        self.data_folder_path = real_img_path.rstrip('\\') + "\\"
-        self.density_folder_path = density_path.rstrip('\\') + "\\"
+        self.data_folder_path = real_img_path.rstrip('/') + "/"
+        self.density_folder_path = density_path.rstrip('/') + "/"
         self.now_data = 0
         self.extension = image_extension
         data_path = self.__init_used_image(image_num, self.__get_dataset_path(image_extension))
@@ -71,7 +71,7 @@ class LoadDataset():
                 tshape = t.shape
                 temp_val.append(t)
                 # Read y train element
-                name = image.split('\\')[-1][:-extension_length]+".h5"
+                name = image.split('/')[-1][:-extension_length]+".h5"
                 gt_file = h5py.File(self.density_folder_path+name,'r')
                 temp_test.append(cv2.resize(np.asarray(gt_file['density']), (int(tshape[1]/8),int(tshape[0]/8))))
                 print("Loading ", count,"-",tshape," : ", image)
@@ -89,7 +89,7 @@ class LoadDataset():
                 temp_val.append(t)
                 tshape = t.shape
                 # Read y train element
-                name = image.split('\\')[-1][:-extension_length]+".h5"
+                name = image.split('/')[-1][:-extension_length]+".h5"
                 gt_file = h5py.File(self.density_folder_path+name,'r')
                 temp_test.append(cv2.resize(np.asarray(gt_file['density']), (int(tshape[1]/8),int(tshape[0]/8))))
                 print("Loading ", count,"-",tshape," : ", image)
