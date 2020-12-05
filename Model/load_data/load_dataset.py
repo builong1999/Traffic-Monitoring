@@ -33,6 +33,27 @@ class LoadDataset():
         self.val_data = data_path[splice_pivot:]
         # self.epoch = epoch_data*len(self.train_data)
 
+    def preprocess_input(image,target):
+        #crop image
+        #crop target
+        #resize target
+        crop_size = (int(image.shape[0]/2),int(image.shape[1]/2))
+        
+        
+        if random.randint(0,9)<= -1:            
+                dx = int(random.randint(0,1)*image.shape[0]*1./2)
+                dy = int(random.randint(0,1)*image.shape[1]*1./2)
+        else:
+                dx = int(random.random()*image.shape[0]*1./2)
+                dy = int(random.random()*image.shape[1]*1./2)
+
+        #print(crop_size , dx , dy)
+        img = image[dx : crop_size[0]+dx , dy:crop_size[1]+dy]
+        
+        target_aug = target[dx:crop_size[0]+dx,dy:crop_size[1]+dy]
+        #print(img.shape)
+
+        return(img,target_aug)
 
     def get_dataset(self):
         if self.train_data and self.val_data:
@@ -46,11 +67,12 @@ class LoadDataset():
                     count+=1
                     # Read x train element
                     t = cv2.imread(image)
+                    tshape = t.shape
                     temp_val.append(t)
                     # Read y train element
                     name = image.split('\\')[-1][:-extension_length]+".h5"
                     gt_file = h5py.File(self.density_folder_path+name,'r')
-                    temp_test.append(np.asarray(gt_file['density']))
+                    temp_test.append(cv2.resize(np.asarray(gt_file['density']), (int(tshape[1]/8),int(tshape[0]/8))))
                     print("Loading ", count," : ", image)
                 
                 x_train = np.asarray(temp_val)
@@ -67,7 +89,7 @@ class LoadDataset():
                     # Read y train element
                     name = image.split('\\')[-1][:-extension_length]+".h5"
                     gt_file = h5py.File(self.density_folder_path+name,'r')
-                    temp_test.append(np.asarray(gt_file['density']))
+                    temp_test.append(cv2.resize(np.asarray(gt_file['density']), (int(tshape[1]/8),int(tshape[0]/8))))
                     print("Loading ", count," : ", image)
 
                 x_val = np.asarray(temp_val)

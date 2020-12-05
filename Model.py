@@ -1,8 +1,8 @@
 import Model.error_function as loss_function
-from Model.model import Model
+from Model.model import CSRModel
 from Model.load_data.load_dataset import LoadDataset
 
-CSRNet = Model()
+CSRNet = CSRModel()
 loss = loss_function.MeanError
 
 #1. Loading dataset
