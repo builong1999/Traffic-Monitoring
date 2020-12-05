@@ -128,7 +128,8 @@ class GaussianParse():
 
                 if self.is_count:
                     print(count,">",round(k.sum(),3),"),(", end="")
-                print( round((time.time() - stime)/10,3),"s)")
+                print( round((time.time() - stime),3),"s)")
+                stime = time.time()
 
                 
 
