@@ -213,7 +213,6 @@ for path in paths:
     while flag:
         points.append(pointTemp)
         flag, pointTemp = AnnotateImage(img)
-        continue
     if len(points) == 0: continue
     points_temp = points.copy()
     points = ""
