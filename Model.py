@@ -17,4 +17,4 @@ CSRNet.run_freeze_time(x_train,y_train,x_val,y_val,loss_function=loss)
 CSRNet.run_unfreeze_time(x_train,y_train,x_val,y_val,loss_function=loss)
 
 #4 Show History
-CSRNet.loss_during_time()
+CSRNet.loss_during_time(35)
