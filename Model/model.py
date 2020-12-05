@@ -15,9 +15,10 @@ from tensorflow.keras.optimizers import SGD
 from tensorflow.keras.optimizers import RMSprop
 from tensorflow.keras.initializers import RandomNormal
 # from tensorflow.keras.datasets import mnist
+from tensorflow.keras import backend as K
 import glob as glob
 
-class Model():
+class CSRModel():
     def __init__(self):
 
         self.init_model()
@@ -39,34 +40,36 @@ class Model():
         fcHead = Conv2D(256, (3, 3), activation='relu', dilation_rate = 2, kernel_initializer = init, padding = 'same')(fcHead)
         fcHead = Conv2D(128, (3, 3), activation='relu', dilation_rate = 2, kernel_initializer = init, padding = 'same')(fcHead)
         fcHead = Conv2D(64, (3, 3), activation='relu', dilation_rate = 2, kernel_initializer = init, padding = 'same')(fcHead)
-        fcHead = Conv2D(1, (1, 1), activation='relu', dilation_rate = 1, kernel_initializer = init, padding = 'same')(fcHead)
+        fcHead = Conv2D(1, (1, 1), activation='relu', kernel_initializer = init, padding = 'same')(fcHead)
 
         self.model = model = Model(inputs=base_model.input, outputs=fcHead)
         self.base_model = base_model
 
+        for layer in model.layers:
+            print(layer.output_shape)
         model.summary()
 
     def run_freeze_time(self, x_train, y_train, 
                         x_val,y_val,
                         RMS= 0.001, epoch = 25, batch_size = 32, loss_function = 'categorical_crossentropy'):
 
-        for layer in base_model.layers:
+        for layer in self.base_model.layers:
             layer.trainable = False
         opt = RMSprop(RMS)
-        self.model.compile(opt,loss_function, ['accuracy'])
+        self.model.compile(optimizer=opt, loss=loss_function, metrics=['accuracy'])
         numOfEpoch = epoch
-        self.History = model.fit(x_train, y_train, batch_size=batch_size, validation_data=(x_val, y_val),epochs=numOfEpoch)
+        self.History = self.model.fit(x_train, y_train, batch_size=batch_size, validation_data=(x_val, y_val),epochs=numOfEpoch)
 
     def run_unfreeze_time(self, x_train, y_train, 
                         x_val,y_val,
-                        SGD = 0.001, epoch = 35, batch_size = 32, loss_function = 'categorical_crossentropy'):
+                        sgd = 0.001, epoch = 35, batch_size = 32, loss_function = 'categorical_crossentropy'):
 
-        for layer in baseModel.layers:
+        for layer in self.base_model.layers:
             layer.trainable = True
         numOfEpoch = epoch
-        opt = SGD(SGD)
-        self.model.compile(opt,loss_function, ['accuracy'])
-        self.History = model.fit(x_train, y_train, batch_size=batch_size, validation_data=(x_val, y_val),epochs=numOfEpoch)
+        opt = SGD(sgd)
+        self.model.compile(optimizer=opt, loss=loss_function, metrics=['accuracy'])
+        self.History = self.model.fit(x_train, y_train, batch_size=batch_size, validation_data=(x_val, y_val),epochs=numOfEpoch)
 
     def save_model(self, path):
         self.model.save(path)

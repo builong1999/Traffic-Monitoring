@@ -89,8 +89,8 @@ class GaussianParse():
 
 
     def run(self):
+        
         image_path_length = len(self.image_path)
-
         try:
             index = 0
             stime = time.time()
@@ -99,7 +99,6 @@ class GaussianParse():
                 count = 0
                 #Log to user
                 print(index, ": (", img_path, end="),(")
-
                 image_path = img_path[:-3]
                 point_lists = []
                 with open(image_path+"txt",'r') as f:
@@ -113,7 +112,6 @@ class GaussianParse():
                         k[int(data[1]),int(data[0])]=1
                         count+=1
                 k = self.gaussian_filter_density(k)
-
                 file_extend = image_path[image_path_length:]
                 h5_path = self.density_h5_path + "/" + file_extend
                 
@@ -130,7 +128,7 @@ class GaussianParse():
 
                 if self.is_count:
                     print(count,">",round(k.sum(),3),"),(", end="")
-                print( round(time.time() - stime,3),"s)")
+                print( round((time.time() - stime)/10,3),"s)")
 
                 
 

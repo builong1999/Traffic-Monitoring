@@ -1,8 +1,8 @@
 import Model.error_function as loss_function
-from Model.model import Model
+from Model.model import CSRModel
 from Model.load_data.load_dataset import LoadDataset
 
-CSRNet = Model()
+CSRNet = CSRModel()
 loss = loss_function.MeanError
 
 #1. Loading dataset
@@ -17,4 +17,4 @@ CSRNet.run_freeze_time(x_train,y_train,x_val,y_val,loss_function=loss)
 CSRNet.run_unfreeze_time(x_train,y_train,x_val,y_val,loss_function=loss)
 
 #4 Show History
-CSRNet.loss_during_time()
+CSRNet.loss_during_time(35)
