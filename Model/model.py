@@ -44,9 +44,7 @@ class CSRModel():
 
         self.model = model = Model(inputs=base_model.input, outputs=fcHead)
         self.base_model = base_model
-
-        for layer in model.layers:
-            print(layer.output_shape)
+        
         model.summary()
 
     def run_freeze_time(self, x_train, y_train, 
