@@ -16,7 +16,7 @@ from os import walk
 import time
 
 class GaussianParse():
-    def __init__(self, is_sample_img = True, is_create_tree = True,count = False,blur=0.05, dpi=300):
+    def __init__(self, is_sample_img = True, is_create_tree = True,count = False,blur=0.1, dpi=300):
         self.sample_img = is_sample_img
         self.create_folder_tree = is_create_tree
         self.blur_constaint = blur
