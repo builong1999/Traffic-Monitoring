@@ -12,21 +12,23 @@ class MakeLabel:
         self.unlabeled = unlabeled
         self.scale = scale
         self.mode = mode
-        
         #Mode 1 is make point 
         #Mode 2 is delete point
         pass
+
+    #create button delete and create label
     def create_button(self):
         os.chdir(os.path.join(os.getcwd(),os.path.dirname(os.path.relpath(inspect.getfile(self.__class__)))))
         if os.path.isfile('icon.png'):
             self.icon = cv2.imread('icon.png')
         else:
             self.icon = None
+
     def get_image_list(self, direc):
         os.chdir(direc)
         self.paths = [item for item in os.listdir() if ".jpg" in os.path.basename(item)]
         #print(self.paths)
-    
+
     def AnnotateImage(self, img,imgOriginal, points):
         if self.icon is not None:
             x, y = self.icon.shape[0:2]
@@ -38,6 +40,7 @@ class MakeLabel:
         y = int((int(r[1])+int(r[1] + r[3]))/2)
         if (x==0 & y==0):
             return False
+        #add icon to image
         if self.icon is not None:
             b, a = self.icon.shape[0:2]
             print(x,y,a,b)
@@ -49,6 +52,7 @@ class MakeLabel:
                 self.mode = 2
                 print('Mode: Delete')
                 return self.AnnotateImage(img,imgOriginal,points)
+        #mode 2 is delete label
         if self.mode == 2:
             x1 = int(r[0])
             x2 = int(r[0] + r[2])
@@ -62,14 +66,15 @@ class MakeLabel:
                                 img[y+i, x+j] = imgOriginal[y+i,x+j]
                         points.remove([x, y])
             #Get centroid
+        #mode 1 is add label
         if self.mode == 1:
             for i in range(-2, 2):
                             for j in range(-2, 2):
                                 img[y+i, x+j] = [0,0,255]
             points.append([x, y])
-
         return True
 
+    #start make label
     def start(self):
         scale = self.scale
         unlabeled = self.unlabeled
@@ -119,13 +124,11 @@ class MakeLabel:
                     x = point[0]
                     y = point[1]
                     points += "\n" + str(round(x / scale)) + " " + str(round(y / scale))
-
             #show the result
             #cv2.destroyAllWindows()
             #cv2.imshow("Result", img)
             #cv2.waitKey(0)
             cv2.destroyAllWindows()
-
             #write file txt
             #print(points)
             f = open(fileTxt, 'w')
