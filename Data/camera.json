@@ -1,0 +1,3795 @@
+{
+    "ResponseTime": "/Date(1594203911886)/",
+    "List": [
+        {
+            "Angle": "240",
+            "CamId": "56de42f611f398ec0c48129f",
+            "Disctrict": "Quận 2",
+            "DisplayName": "Đồng Văn Cống - Nguyễn Thị Định",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.7702866,10.7731722]}",
+            "PTZ": "False",
+            "Title": "TTH 22.2"
+        },
+        {
+            "Angle": "30",
+            "CamId": "59c8c17602eb490011a0a37e",
+            "Disctrict": null,
+            "DisplayName": "KCN Vĩnh Lộc -> Phan Văn Hớn",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.606307029724,10.8330109299002]}",
+            "PTZ": "False",
+            "Title": "TTH-VDS 017"
+        },
+        {
+            "Angle": "225",
+            "CamId": "59ca2cf302eb490011a0a3eb",
+            "Disctrict": null,
+            "DisplayName": "Cầu vượt An Sương 3",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.615458726883,10.8427001319976]}",
+            "PTZ": "False",
+            "Title": "IDICO-QL1 03"
+        },
+        {
+            "Angle": "30",
+            "CamId": "59ca2d9d02eb490011a0a3f0",
+            "Disctrict": null,
+            "DisplayName": "QL1 - Phan Văn Hớn 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.606961488724,10.8342965190794]}",
+            "PTZ": "False",
+            "Title": "IDICO-QL1 05"
+        },
+        {
+            "Angle": "195",
+            "CamId": "59ca2fa302eb490011a0a3fd",
+            "Disctrict": null,
+            "DisplayName": "QL1 - cầu Bình Thuận",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.595111489296,10.7877852422632]}",
+            "PTZ": "False",
+            "Title": "IDICO-QL1 19"
+        },
+        {
+            "Angle": "345",
+            "CamId": "59ca31d602eb490011a0a40b",
+            "Disctrict": null,
+            "DisplayName": "QL1 - Hồ Học Lãm",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.602809429169,10.7342095859156]}",
+            "PTZ": "False",
+            "Title": "IDICO-QL1 33"
+        },
+        {
+            "Angle": "315",
+            "CamId": "595d9ba43dcfc400106f2880",
+            "Disctrict": null,
+            "DisplayName": "Quốc lộ 1 - An Phú Đông 12 (2)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.705430746078,10.8591062543837]}",
+            "PTZ": "False",
+            "Title": "TTH 21.54"
+        },
+        {
+            "Angle": "270",
+            "CamId": "595da7783dcfc400106f2888",
+            "Disctrict": null,
+            "DisplayName": "Quốc lộ 1 - Đường Vườn Lài 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.691998243332,10.8607341730882]}",
+            "PTZ": "False",
+            "Title": "TTH 21.57"
+        },
+        {
+            "Angle": null,
+            "CamId": "595dc29c3dcfc400106f2894",
+            "Disctrict": null,
+            "DisplayName": "Quốc lộ 1 - Rạch Láng Le 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.686397790909,10.8610818827294]}",
+            "PTZ": "False",
+            "Title": "TTH 21.59"
+        },
+        {
+            "Angle": "270",
+            "CamId": "595dc70d3dcfc400106f289a",
+            "Disctrict": null,
+            "DisplayName": "Quốc lộ 1 - Ngã 4 Ga",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.679971218109,10.8615244216871]}",
+            "PTZ": "False",
+            "Title": "TTH 21.62"
+        },
+        {
+            "Angle": null,
+            "CamId": "595dd3a63dcfc400106f28a7",
+            "Disctrict": null,
+            "DisplayName": "Quốc lộ 1 - Đường Tô Ngọc Vân 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.671018004417,10.8617667641718]}",
+            "PTZ": "False",
+            "Title": "TTH 21.64"
+        },
+        {
+            "Angle": null,
+            "CamId": "595dd6093dcfc400106f28ad",
+            "Disctrict": null,
+            "DisplayName": "Quốc lộ 1 - Cầu Bến Cát 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.663513183594,10.861629788009]}",
+            "PTZ": "False",
+            "Title": "TTH 21.67"
+        },
+        {
+            "Angle": null,
+            "CamId": "595dd7693dcfc400106f28b0",
+            "Disctrict": null,
+            "DisplayName": "Quốc lộ 1 - Đường Lê Thị Riêng 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.65426492691,10.8619248135124]}",
+            "PTZ": "False",
+            "Title": "TTH 21.68"
+        },
+        {
+            "Angle": "210",
+            "CamId": "595f874d3dcfc400106f28ec",
+            "Disctrict": null,
+            "DisplayName": "Quốc lộ 1 - Nguyễn Văn Quá 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.639571785927,10.8566669938921]}",
+            "PTZ": "False",
+            "Title": "TTH 21.76"
+        },
+        {
+            "Angle": "240",
+            "CamId": "595f8d813dcfc400106f28f2",
+            "Disctrict": null,
+            "DisplayName": "Quốc lộ 1 - Quang Trung 2 (hướng đi An Sương)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.632431745529,10.8529158676222]}",
+            "PTZ": "False",
+            "Title": "TTH 21.79"
+        },
+        {
+            "Angle": "330",
+            "CamId": "59d3524f02eb490011a0a61b",
+            "Disctrict": null,
+            "DisplayName": "Cầu vượt Trạm 2 (TĐ ->Q9)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.793106794357,10.8655019745646]}",
+            "PTZ": "False",
+            "Title": "TTH 33.9"
+        },
+        {
+            "Angle": "180",
+            "CamId": "5a605f828576340017d06608",
+            "Disctrict": null,
+            "DisplayName": "Nguyễn Thái Sơn - Nguyễn Văn Nghi 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.686521172523,10.8243119827038]}",
+            "PTZ": "False",
+            "Title": "TTH 24.4"
+        },
+        {
+            "Angle": "60",
+            "CamId": "595d984b3dcfc400106f2879",
+            "Disctrict": null,
+            "DisplayName": "Quốc lộ 1 - An Phú Đông 13 (1)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.711691021919,10.8589534719139]}",
+            "PTZ": "False",
+            "Title": "TTH 21.51"
+        },
+        {
+            "Angle": "255",
+            "CamId": "595d98fc3dcfc400106f287b",
+            "Disctrict": null,
+            "DisplayName": "Quốc lộ 1 - An Phú Đông 13 (2)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.711578369141,10.8589376668263]}",
+            "PTZ": "False",
+            "Title": "TTH 21.52"
+        },
+        {
+            "Angle": "270",
+            "CamId": "595d9b3b3dcfc400106f287e",
+            "Disctrict": null,
+            "DisplayName": "Quốc lộ 1 - An Phú Đông 12 (1)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.70542538166,10.8592853785591]}",
+            "PTZ": "False",
+            "Title": "TTH 21.53"
+        },
+        {
+            "Angle": null,
+            "CamId": "595da2853dcfc400106f2883",
+            "Disctrict": null,
+            "DisplayName": "Quốc lộ 1 - Đường 15 (1)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.698827147484,10.8601019727034]}",
+            "PTZ": "False",
+            "Title": "TTH 21.55"
+        },
+        {
+            "Angle": "270",
+            "CamId": "595da2dd3dcfc400106f2885",
+            "Disctrict": null,
+            "DisplayName": "Quốc lộ 1 - Đường 15 (2)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.698709130287,10.8601177777294]}",
+            "PTZ": "False",
+            "Title": "TTH 21.56"
+        },
+        {
+            "Angle": "300",
+            "CamId": "595da7d93dcfc400106f288a",
+            "Disctrict": null,
+            "DisplayName": "Quốc lộ 1 - Đường Vườn Lài 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.692035794258,10.8605550497817]}",
+            "PTZ": "False",
+            "Title": "TTH 21.58"
+        },
+        {
+            "Angle": "270",
+            "CamId": "595dc2f03dcfc400106f2896",
+            "Disctrict": null,
+            "DisplayName": "Quốc lộ 1 - Rạch Láng Le 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.686226129532,10.8610924193788]}",
+            "PTZ": "False",
+            "Title": "TTH 21.60"
+        },
+        {
+            "Angle": null,
+            "CamId": "595dc5ac3dcfc400106f2898",
+            "Disctrict": null,
+            "DisplayName": "Quốc lộ 1 - BQB Đường dẫn cầu vượt Ngã 4 Ga (hướng đi An Sương)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.682245731354,10.8613452988547]}",
+            "PTZ": "False",
+            "Title": "TTH 21.61"
+        },
+        {
+            "Angle": "270",
+            "CamId": "595dcab53dcfc400106f289d",
+            "Disctrict": null,
+            "DisplayName": "Quốc lộ 1 - BQB Trước bến xe Ngã 4 Ga (hướng đi Bình Phước)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.678490638733,10.861629788009]}",
+            "PTZ": "False",
+            "Title": "TTH 21.63"
+        },
+        {
+            "Angle": "105",
+            "CamId": "595dd4133dcfc400106f28a9",
+            "Disctrict": null,
+            "DisplayName": "Quốc lộ 1 - Đường Tô Ngọc Vân 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.671023368835,10.8619616916798]}",
+            "PTZ": "False",
+            "Title": "TTH 21.65"
+        },
+        {
+            "Angle": "270",
+            "CamId": "595dd4f43dcfc400106f28ab",
+            "Disctrict": null,
+            "DisplayName": "Quốc lộ 1 - Cầu Bến Cát 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.663309335709,10.8616403246391]}",
+            "PTZ": "False",
+            "Title": "TTH 21.66"
+        },
+        {
+            "Angle": "75",
+            "CamId": "595dd8463dcfc400106f28b2",
+            "Disctrict": null,
+            "DisplayName": "Quốc lộ 1 - Đường Lê Thị Riêng 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.654415130615,10.8619248135124]}",
+            "PTZ": "False",
+            "Title": "TTH 21.69"
+        },
+        {
+            "Angle": null,
+            "CamId": "595dd9ac3dcfc400106f28b4",
+            "Disctrict": null,
+            "DisplayName": "Quốc lộ 1 - BQB Trước UBND Q12 (hướng đi An Sương)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.653299331665,10.8619827649163]}",
+            "PTZ": "False",
+            "Title": "TTH 21.70"
+        },
+        {
+            "Angle": "255",
+            "CamId": "595ddb493dcfc400106f28b6",
+            "Disctrict": null,
+            "DisplayName": "Quốc lộ 1 - Cầu vượt Tân Thới Hiệp 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.649731993675,10.8620881310764]}",
+            "PTZ": "False",
+            "Title": "TTH 21.71"
+        },
+        {
+            "Angle": "90",
+            "CamId": "595ddbbf3dcfc400106f28b8",
+            "Disctrict": null,
+            "DisplayName": "Quốc lộ 1 - Cầu vượt Tân Thới Hiệp 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.649796366692,10.8618299839181]}",
+            "PTZ": "False",
+            "Title": "TTH 21.72"
+        },
+        {
+            "Angle": "180",
+            "CamId": "595ddc123dcfc400106f28ba",
+            "Disctrict": null,
+            "DisplayName": "Quốc lộ 1 - Cầu vượt Tân Thới Hiệp 3",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.649812459946,10.8617509592331]}",
+            "PTZ": "False",
+            "Title": "TTH 21.73"
+        },
+        {
+            "Angle": "240",
+            "CamId": "595f80e83dcfc400106f28e4",
+            "Disctrict": null,
+            "DisplayName": "Quốc lộ 1 - BQB Cầu vượt Tân Thới Hiệp B (hướng Bình Phước)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.645692586899,10.8600387525913]}",
+            "PTZ": "False",
+            "Title": "TTH 21.74"
+        },
+        {
+            "Angle": "240",
+            "CamId": "595f86c43dcfc400106f28ea",
+            "Disctrict": null,
+            "DisplayName": "Quốc lộ 1 - Nguyễn Văn Quá 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.639485955238,10.8566248466676]}",
+            "PTZ": "False",
+            "Title": "TTH 21.75"
+        },
+        {
+            "Angle": "60",
+            "CamId": "595f89323dcfc400106f28ee",
+            "Disctrict": null,
+            "DisplayName": "Quốc lộ 1 - BQB Cầu vượt Quang Trung A (hướng An Sương)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.633172035217,10.8532003648042]}",
+            "PTZ": "False",
+            "Title": "TTH 21.77"
+        },
+        {
+            "Angle": null,
+            "CamId": "595f8d233dcfc400106f28f0",
+            "Disctrict": null,
+            "DisplayName": "Quốc lộ 1 - Quang Trung 1 (hướng đi Bình Phước)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.632506847382,10.8528104982269]}",
+            "PTZ": "False",
+            "Title": "TTH 21.78"
+        },
+        {
+            "Angle": "240",
+            "CamId": "595f8f0b3dcfc400106f28f4",
+            "Disctrict": null,
+            "DisplayName": "Quốc lộ 1 - BQB Cầu vượt Quang Trung B (hướng Ngã 4 Ga)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.624749898911,10.8491120089147]}",
+            "PTZ": "False",
+            "Title": "TTH 21.80"
+        },
+        {
+            "Angle": "225",
+            "CamId": "595f91653dcfc400106f28f6",
+            "Disctrict": null,
+            "DisplayName": "Quốc lộ 1 - Cầu vượt An Sương (Song hành QL 22)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.618419885635,10.8454766970536]}",
+            "PTZ": "False",
+            "Title": "TTH 21.81"
+        },
+        {
+            "Angle": "225",
+            "CamId": "56de42f611f398ec0c481284",
+            "Disctrict": "Quận 1",
+            "DisplayName": "Nguyễn Thị Minh Khai - Ngã sáu Cộng Hòa",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.682481765747,10.7664899801327]}",
+            "PTZ": "False",
+            "Title": "TTH 5a"
+        },
+        {
+            "Angle": "150",
+            "CamId": "5a6087858576340017d0668e",
+            "Disctrict": null,
+            "DisplayName": "QL1-Trạm Biến Áp 500Kv Phú Lâm",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.598871946335,10.7414565055181]}",
+            "PTZ": "False",
+            "Title": "IDICO-QL1 32"
+        },
+        {
+            "Angle": "120",
+            "CamId": "583f926761cfea0012cf68f1",
+            "Disctrict": "Quận 2",
+            "DisplayName": "Nguyễn Thị Định - Cổng A Cảng Cát Lái",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.786578297615,10.7599709364081]}",
+            "PTZ": "False",
+            "Title": "TTH 22.9"
+        },
+        {
+            "Angle": "285",
+            "CamId": "58b5510817139d0010f35d4e",
+            "Disctrict": "Quận Thủ Đức",
+            "DisplayName": "Phạm Văn Đồng - Quốc Lộ 13 (2)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.71435713768,10.8254711543978]}",
+            "PTZ": "False",
+            "Title": "TTH 21.15"
+        },
+        {
+            "Angle": "135",
+            "CamId": "5a824b6c5058170011f6eaab",
+            "Disctrict": null,
+            "DisplayName": "Nút giao Bốn Xã 3 (Lê Văn Quới)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.621397137642,10.773841521503]}",
+            "PTZ": "False",
+            "Title": "TTH 104.1"
+        },
+        {
+            "Angle": null,
+            "CamId": "587447b4b807da0011e33ca0",
+            "Disctrict": "Quận 7",
+            "DisplayName": "Nguyễn Văn Linh - Cầu Ông Lớn 2 làn",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.69020652771,10.7285647739644]}",
+            "PTZ": "False",
+            "Title": "TTH 41.1"
+        },
+        {
+            "Angle": "150",
+            "CamId": "58aff2c6bd82540010390c55",
+            "Disctrict": "Huyện Bình Chánh",
+            "DisplayName": "Quốc lộ 1 - Đinh Đức Thiện 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.569807529449,10.6647884855642]}",
+            "PTZ": "False",
+            "Title": "TTH 21.45"
+        },
+        {
+            "Angle": "330",
+            "CamId": "5874656eb807da0011e33cde",
+            "Disctrict": "Quận Thủ Đức",
+            "DisplayName": "Cầu vượt Bình Phước 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.724211573601,10.8647433460363]}",
+            "PTZ": "False",
+            "Title": "TTH 21.13"
+        },
+        {
+            "Angle": "45",
+            "CamId": "58af8a0bbd82540010390c25",
+            "Disctrict": "Quận 3",
+            "DisplayName": "Nam Kỳ Khởi Nghĩa - Võ Thị Sáu",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.688543558121,10.784533873088]}",
+            "PTZ": "False",
+            "Title": "TTH 35.3"
+        },
+        {
+            "Angle": "15",
+            "CamId": "5a8267fe5058170011f6eae1",
+            "Disctrict": null,
+            "DisplayName": "Lê Văn Lương - Cầu Rạch Đĩa",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.697700619698,10.7235786992945]}",
+            "PTZ": "False",
+            "Title": "TTH 123.1"
+        },
+        {
+            "Angle": "120",
+            "CamId": "58affc6017139d0010f35cc8",
+            "Disctrict": "Quận Thủ Đức",
+            "DisplayName": "Phạm Văn Đồng - Quốc Lộ 13 (1)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.714013814926,10.8262720340397]}",
+            "PTZ": "False",
+            "Title": "TTH 21.14"
+        },
+        {
+            "Angle": "45",
+            "CamId": "5a823d555058170011f6eaa2",
+            "Disctrict": null,
+            "DisplayName": "Lý Tự Trọng - Hai Bà Trưng 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.702115535736,10.7791113331904]}",
+            "PTZ": "False",
+            "Title": "TTH 101.1"
+        },
+        {
+            "Angle": "135",
+            "CamId": "5b6c155aca0577001163fe36",
+            "Disctrict": null,
+            "DisplayName": "Nguyễn Hữu Cảnh 1 (Dạ cầu)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.720730066299,10.7974969832732]}",
+            "PTZ": "False",
+            "Title": "TTH 135.1"
+        },
+        {
+            "Angle": null,
+            "CamId": "5b0b835b0e517b00119fd80d",
+            "Disctrict": null,
+            "DisplayName": "Tam Bình (Số 81)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.73014998436,10.8530844585776]}",
+            "PTZ": "False",
+            "Title": "TTH 128"
+        },
+        {
+            "Angle": "315",
+            "CamId": "5874461db807da0011e33c9c",
+            "Disctrict": "Quận 2",
+            "DisplayName": "Đồng Văn Cống - Cầu Giồng Ông Tố 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.75255715847,10.7840648720405]}",
+            "PTZ": "False",
+            "Title": "TTH 22.10"
+        },
+        {
+            "Angle": "195",
+            "CamId": "59ca2ecb02eb490011a0a3f6",
+            "Disctrict": null,
+            "DisplayName": "QL1 - Trạm thu phí AS-AL 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.596806645393,10.7958581819231]}",
+            "PTZ": "False",
+            "Title": "IDICO-QL1 15"
+        },
+        {
+            "Angle": "195",
+            "CamId": "5a8254f25058170011f6eac5",
+            "Disctrict": null,
+            "DisplayName": "Xô Viết Nghệ Tĩnh - Nguyễn Xí 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.712415218353,10.8102803807443]}",
+            "PTZ": "False",
+            "Title": "TTH 108.2"
+        },
+        {
+            "Angle": "225",
+            "CamId": "58744fb0b807da0011e33cc0",
+            "Disctrict": "Quận 8",
+            "DisplayName": "Hưng Phú - Chánh Hưng 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.669129729271,10.7463895818732]}",
+            "PTZ": "False",
+            "Title": "TTH 43.2"
+        },
+        {
+            "Angle": "180",
+            "CamId": "58746536b807da0011e33cdc",
+            "Disctrict": "Quận Thủ Đức",
+            "DisplayName": "Cầu vượt Bình Phước 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.723519563675,10.8659497751896]}",
+            "PTZ": "False",
+            "Title": "TTH 21.12"
+        },
+        {
+            "Angle": null,
+            "CamId": "584e7dd961cfea0012cf6977",
+            "Disctrict": null,
+            "DisplayName": "Nguyễn Huệ 15",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.704508066177,10.7733988531214]}",
+            "PTZ": "False",
+            "Title": "NH 15"
+        },
+        {
+            "Angle": "225",
+            "CamId": "584e76a961cfea0012cf6955",
+            "Disctrict": "Quận 1",
+            "DisplayName": "Nguyễn Huệ 02",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.705935001373,10.7718705882315]}",
+            "PTZ": "False",
+            "Title": "NH 02"
+        },
+        {
+            "Angle": "150",
+            "CamId": "584e80a761cfea0012cf6989",
+            "Disctrict": null,
+            "DisplayName": "Nguyễn Huệ 24",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.703526377678,10.7742209510263]}",
+            "PTZ": "False",
+            "Title": "NH 24"
+        },
+        {
+            "Angle": "300",
+            "CamId": "584e8d1f61cfea0012cf699e",
+            "Disctrict": "Quận 1",
+            "DisplayName": "Nguyễn Huệ 36",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.702292561531,10.7752433004175]}",
+            "PTZ": "False",
+            "Title": "NH 36"
+        },
+        {
+            "Angle": null,
+            "CamId": "584e7fd161cfea0012cf6983",
+            "Disctrict": "Quận 1",
+            "DisplayName": "Nguyễn Huệ 21",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.703869700432,10.773820442071]}",
+            "PTZ": "False",
+            "Title": "NH 21"
+        },
+        {
+            "Angle": "225",
+            "CamId": "584e784d61cfea0012cf695e",
+            "Disctrict": null,
+            "DisplayName": "Nguyễn Huệ 06",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.705623865128,10.77220786115]}",
+            "PTZ": "False",
+            "Title": "NH 06"
+        },
+        {
+            "Angle": "330",
+            "CamId": "587c87e8b807da0011e33d45",
+            "Disctrict": "Quận Tân Bình",
+            "DisplayName": "Lê Văn Sỹ - Phạm Văn Hai",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.664655804634,10.7968909966773]}",
+            "PTZ": "False",
+            "Title": "TTH 38.7"
+        },
+        {
+            "Angle": "180",
+            "CamId": "58744e97b807da0011e33cb9",
+            "Disctrict": "Quận 8",
+            "DisplayName": "Dương Bá Trạc - Tạ Quang Bửu 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.689042448998,10.7469851294422]}",
+            "PTZ": "False",
+            "Title": "TTH 42.3"
+        },
+        {
+            "Angle": "255",
+            "CamId": "58d7c20ac1e33c00112b321c",
+            "Disctrict": "Quận Bình Thạnh",
+            "DisplayName": "Phạm Văn Đồng - Phan Văn Trị 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.69480919838,10.8207659432755]}",
+            "PTZ": "False",
+            "Title": "TTH 45.4"
+        },
+        {
+            "Angle": null,
+            "CamId": "5875cb72b807da0011e33d0c",
+            "Disctrict": "Quận Tân Bình",
+            "DisplayName": "Lê Văn Sỹ - Nguyễn Trọng Tuyển",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.662359833717,10.7987300304856]}",
+            "PTZ": "False",
+            "Title": "TTH 38.5"
+        },
+        {
+            "Angle": "90",
+            "CamId": "591c64caa6bfb50011940098",
+            "Disctrict": "Huyện Nhà Bè",
+            "DisplayName": "Cầu Rạch Tôm (HCM)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.697909832001,10.6727118329902]}",
+            "PTZ": "False",
+            "Title": "TTH 48.4"
+        },
+        {
+            "Angle": "270",
+            "CamId": "56df833ac062921100c143e1",
+            "Disctrict": "Quận 7",
+            "DisplayName": "Nguyễn Hữu Thọ - Nguyễn Thị Thập 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.701048016548,10.7403707962704]}",
+            "PTZ": "False",
+            "Title": "TTH 25.2"
+        },
+        {
+            "Angle": "60",
+            "CamId": "56de42f611f398ec0c48129c",
+            "Disctrict": "Huyện Bình Chánh",
+            "DisplayName": "Võ Văn Kiệt - Quốc Lộ 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.600942611694,10.7170534584198]}",
+            "PTZ": "False",
+            "Title": "TTH 20.1"
+        },
+        {
+            "Angle": "105",
+            "CamId": "56df8416c062921100c143e4",
+            "Disctrict": "Quận Gò Vấp",
+            "DisplayName": "Nút giao Nguyễn Thái Sơn 2 (Nguyễn Kiệm)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.678592562675,10.8143956125566]}",
+            "PTZ": "False",
+            "Title": "TTH 24.3"
+        },
+        {
+            "Angle": "60",
+            "CamId": "5701e22bc4350a1100e26f6c",
+            "Disctrict": "Quận 1",
+            "DisplayName": "Nguyễn Công Trứ - Calmete",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.699663996696,10.7670854880112]}",
+            "PTZ": "False",
+            "Title": "TTH 1a"
+        },
+        {
+            "Angle": "165",
+            "CamId": "586e20a0f9fab7001111b0a7",
+            "Disctrict": "Quận Phú Nhuận",
+            "DisplayName": "Nguyễn Kiệm - Hồ Văn Huê",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.6783618927,10.8062968247449]}",
+            "PTZ": "False",
+            "Title": "TTH 39.1"
+        },
+        {
+            "Angle": "75",
+            "CamId": "587efb60b807da0011e33d5d",
+            "Disctrict": "Quận Gò Vấp",
+            "DisplayName": "Phạm Văn Đồng - Lê Quang Định 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.689192652702,10.8192748027252]}",
+            "PTZ": "False",
+            "Title": "TTH 45.2"
+        },
+        {
+            "Angle": "270",
+            "CamId": "589b46b3b3bf7600110283d0",
+            "Disctrict": "Quận 12",
+            "DisplayName": "Hà Huy Giáp - Cầu Phú Long 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.69497013092,10.8986321383696]}",
+            "PTZ": "False",
+            "Title": "TTH 48.2"
+        },
+        {
+            "Angle": "255",
+            "CamId": "58abbee5bd82540010390ba2",
+            "Disctrict": "Quận 2",
+            "DisplayName": "Cầu Sài Gòn 1 (dạ cầu Bình Thạnh)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.730718612671,10.7996679860869]}",
+            "PTZ": "False",
+            "Title": "TTH 49.1"
+        },
+        {
+            "Angle": "15",
+            "CamId": "58afcd9bbd82540010390c41",
+            "Disctrict": "Huyện Bình Chánh",
+            "DisplayName": "Quốc lộ 1 - Nguyễn Hữu Trí 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.596699357033,10.6965544326304]}",
+            "PTZ": "False",
+            "Title": "TTH 21.41"
+        },
+        {
+            "Angle": "270",
+            "CamId": "58afccadbd82540010390c3f",
+            "Disctrict": "Huyện Bình Chánh",
+            "DisplayName": "Quốc lộ 1 - Nguyễn Hữu Trí 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.596463322639,10.6966335007055]}",
+            "PTZ": "False",
+            "Title": "TTH 21.40"
+        },
+        {
+            "Angle": "75",
+            "CamId": "58d7b756c1e33c00112b320d",
+            "Disctrict": "Huyện Bình Chánh",
+            "DisplayName": "Nút giao Chợ Đệm 2 (CT Trung Lương - Bùi Thanh Khiết)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.57566010952,10.6860698233787]}",
+            "PTZ": "False",
+            "Title": "TTH 21.49"
+        },
+        {
+            "Angle": "60",
+            "CamId": "595d92013dcfc400106f2877",
+            "Disctrict": null,
+            "DisplayName": "Quốc Lộ 1A - Cầu Bình Phước",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.715140342712,10.8607025631008]}",
+            "PTZ": "False",
+            "Title": "TTH 21.50"
+        },
+        {
+            "Angle": "195",
+            "CamId": "59ca329d02eb490011a0a410",
+            "Disctrict": null,
+            "DisplayName": "QL1 - Nút giao An Lạc 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.601028442383,10.7240003578389]}",
+            "PTZ": "False",
+            "Title": "IDICO-QL1 35"
+        },
+        {
+            "Angle": "210",
+            "CamId": "5a606cd08576340017d06628",
+            "Disctrict": null,
+            "DisplayName": "BX Miền Đông - Đinh Bộ Lĩnh 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.71005487442,10.8144114199963]}",
+            "PTZ": "False",
+            "Title": "TTH 44.10"
+        },
+        {
+            "Angle": "90",
+            "CamId": "5a606c758576340017d06626",
+            "Disctrict": null,
+            "DisplayName": "BX Miền Đông - Quốc Lộ 13 (1)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.712779998779,10.8142322689639]}",
+            "PTZ": "False",
+            "Title": "TTH 44.9"
+        },
+        {
+            "Angle": "45",
+            "CamId": "5a823e425058170011f6eaa4",
+            "Disctrict": null,
+            "DisplayName": "Đinh Tiên Hoàng - Võ Thị Sáu 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.695774793625,10.7917743133057]}",
+            "PTZ": "False",
+            "Title": "TTH 102.1"
+        },
+        {
+            "Angle": "210",
+            "CamId": "5a824c3e5058170011f6eaae",
+            "Disctrict": null,
+            "DisplayName": "Nút giao Bốn Xã 1 (Bình Long)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.621649265289,10.7738836803625]}",
+            "PTZ": "False",
+            "Title": "TTH 104.2"
+        },
+        {
+            "Angle": "195",
+            "CamId": "5a8256df5058170011f6eacb",
+            "Disctrict": null,
+            "DisplayName": "BX Miền Đông - Quốc Lộ 13 (2)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.713198423386,10.8172620146729]}",
+            "PTZ": "False",
+            "Title": "TTH 110"
+        },
+        {
+            "Angle": "135",
+            "CamId": "5b25a268f13cba001124e713",
+            "Disctrict": null,
+            "DisplayName": "Nam Kỳ Khởi Nghĩa - Lê Thánh Tôn",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.699481606483,10.7747057769436]}",
+            "PTZ": "False",
+            "Title": "TTH 130"
+        },
+        {
+            "Angle": "300",
+            "CamId": "5b25a1dcf13cba001124e710",
+            "Disctrict": null,
+            "DisplayName": "Lý Tự Trọng - Pasteur 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.700028777123,10.7767662783818]}",
+            "PTZ": "False",
+            "Title": "TTH 129"
+        },
+        {
+            "Angle": "45",
+            "CamId": "5d9dddb9766c880017188c96",
+            "Disctrict": null,
+            "DisplayName": "Nút giao Hàng Xanh 2 (ĐH Hồng Bàng)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.706600189209,10.7998787622235]}",
+            "PTZ": "False",
+            "Title": "TTH 170"
+        },
+        {
+            "Angle": null,
+            "CamId": "5d9ddd49766c880017188c94",
+            "Disctrict": null,
+            "DisplayName": "Nút giao Hàng Xanh 1 (Viện Máy tính)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.71106338501,10.8016545453012]}",
+            "PTZ": "False",
+            "Title": "TTH 169"
+        },
+        {
+            "Angle": "285",
+            "CamId": "5d9dde8e766c880017188c9a",
+            "Disctrict": null,
+            "DisplayName": "Nút giao Hàng Xanh 4 (Cầu Văn Thánh - Hàng Xanh)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.713750958443,10.8015491578746]}",
+            "PTZ": "False",
+            "Title": "TTH 172"
+        },
+        {
+            "Angle": "300",
+            "CamId": "583f958161cfea0012cf68f5",
+            "Disctrict": "Quận 2",
+            "DisplayName": "Nguyễn Thị Định - Đường C",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.779872775078,10.7660209509751]}",
+            "PTZ": "False",
+            "Title": "TTH 22.6"
+        },
+        {
+            "Angle": "30",
+            "CamId": "5b6c1618ca0577001163fe3c",
+            "Disctrict": null,
+            "DisplayName": "Nguyễn Hữu Cảnh 2 (Chân cầu)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.718080043793,10.795078299042]}",
+            "PTZ": "False",
+            "Title": "TTH 135.3"
+        },
+        {
+            "Angle": "270",
+            "CamId": "58df4e22dc195800111e04bb",
+            "Disctrict": "Quận Tân Bình",
+            "DisplayName": "Yên Thế - Bạch Đằng",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.668593287468,10.8141637700114]}",
+            "PTZ": "False",
+            "Title": "TTH 26.5"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515acf8",
+            "Disctrict": null,
+            "DisplayName": "Ba Tháng Hai - Cao Thắng",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.67782,10.773823]}",
+            "PTZ": "True",
+            "Title": "ITS 1.51"
+        },
+        {
+            "Angle": "195",
+            "CamId": "5bbc7163ca0577001164127f",
+            "Disctrict": null,
+            "DisplayName": "Lê Văn Lương - Cầu Long Kiểng (HCM)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.702550053597,10.6895647333739]}",
+            "PTZ": "False",
+            "Title": "TTH 137"
+        },
+        {
+            "Angle": "120",
+            "CamId": "589add0fb3bf7600110283ae",
+            "Disctrict": "Quận 12",
+            "DisplayName": "Tô Ký (Tỉnh lộ 15) - Đông Bắc",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.623339056969,10.8556133114939]}",
+            "PTZ": "False",
+            "Title": "TTH 46.2"
+        },
+        {
+            "Angle": "90",
+            "CamId": "58746122b807da0011e33cc5",
+            "Disctrict": "Quận Thủ Đức",
+            "DisplayName": "Quốc lộ 1 - ĐH Nông Lâm 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.787940859795,10.8672299545045]}",
+            "PTZ": "False",
+            "Title": "TTH 21.2"
+        },
+        {
+            "Angle": "135",
+            "CamId": "56de42f611f398ec0c48129e",
+            "Disctrict": "Quận 2",
+            "DisplayName": "Đồng Văn Cống - Phan Văn Đáng",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.7572618,10.7785053]}",
+            "PTZ": "False",
+            "Title": "TTH 22.1"
+        },
+        {
+            "Angle": "15",
+            "CamId": "591c67dea6bfb500119400a1",
+            "Disctrict": "Huyện Nhà Bè",
+            "DisplayName": "Cầu Rạch Đĩa (HCM)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.697909832001,10.724748800308]}",
+            "PTZ": "False",
+            "Title": "TTH 48.7"
+        },
+        {
+            "Angle": "195",
+            "CamId": "591c6552a6bfb5001194009a",
+            "Disctrict": "Huyện Nhà Bè",
+            "DisplayName": "Cầu Long Kiểng (Long An)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.702351570129,10.6885895362911]}",
+            "PTZ": "False",
+            "Title": "TTH 48.5"
+        },
+        {
+            "Angle": "285",
+            "CamId": "587ef2e4b807da0011e33d57",
+            "Disctrict": "Quận Phú Nhuận",
+            "DisplayName": "Nguyễn Văn Trỗi - Nguyễn Trọng Tuyển",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.672310829163,10.7976866831738]}",
+            "PTZ": "False",
+            "Title": "TTH 34.7"
+        },
+        {
+            "Angle": "60",
+            "CamId": "591c6bdba6bfb500119400a7",
+            "Disctrict": "Huyện Nhà Bè",
+            "DisplayName": "Cầu Cái Tâm (Hướng HCM)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.578095555305,10.6948360147088]}",
+            "PTZ": "False",
+            "Title": "TTH 48.10"
+        },
+        {
+            "Angle": "270",
+            "CamId": "587460aab807da0011e33cc2",
+            "Disctrict": "Quận Thủ Đức",
+            "DisplayName": "Quốc lộ 1 - ĐH Nông Lâm 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.788429021835,10.8671930769878]}",
+            "PTZ": "False",
+            "Title": "TTH 21.1"
+        },
+        {
+            "Angle": "30",
+            "CamId": "584e738361cfea0012cf6951",
+            "Disctrict": "Quận Bình Tân",
+            "DisplayName": "Quốc lộ 1 - Nguyễn Thị Tú",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.600910425186,10.8161291568165]}",
+            "PTZ": "False",
+            "Title": "TTH 21.38"
+        },
+        {
+            "Angle": "180",
+            "CamId": "591c6467a6bfb50011940096",
+            "Disctrict": "Huyện Nhà Bè",
+            "DisplayName": "Cầu Rạch Tôm (Long An)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.697888374329,10.6722901031326]}",
+            "PTZ": "False",
+            "Title": "TTH 48.3"
+        },
+        {
+            "Angle": "300",
+            "CamId": "583f969161cfea0012cf68f7",
+            "Disctrict": "Quận 2",
+            "DisplayName": "Nguyễn Thị Định - Đường D",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.781423091888,10.7646823693643]}",
+            "PTZ": "False",
+            "Title": "TTH 22.7"
+        },
+        {
+            "Angle": "165",
+            "CamId": "5a824e465058170011f6eab4",
+            "Disctrict": null,
+            "DisplayName": "Quang Trung - Lê Văn Thọ (2)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.658325791359,10.8366990807787]}",
+            "PTZ": "False",
+            "Title": "TTH 115.2"
+        },
+        {
+            "Angle": "75",
+            "CamId": "56df8108c062921100c143db",
+            "Disctrict": "Quận Phú Nhuận",
+            "DisplayName": "Hồng Hà - Hoàng Minh Giám",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.674022078514,10.8090315732439]}",
+            "PTZ": "False",
+            "Title": "TTH 23"
+        },
+        {
+            "Angle": "180",
+            "CamId": "5a82439f5058170011f6eaa9",
+            "Disctrict": null,
+            "DisplayName": "Nguyễn Biểu - Cầu Chữ Y",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.68364584446,10.75113811876]}",
+            "PTZ": "False",
+            "Title": "TTH 103"
+        },
+        {
+            "Angle": "150",
+            "CamId": "58af9670bd82540010390c34",
+            "Disctrict": "Quận Bình Thạnh",
+            "DisplayName": "Phạm Văn Đồng - Phan Văn Trị 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.693714857101,10.8212296179772]}",
+            "PTZ": "False",
+            "Title": "TTH 45.3"
+        },
+        {
+            "Angle": "120",
+            "CamId": "586e28a0f9fab7001111b0b3",
+            "Disctrict": "Quận Thủ Đức",
+            "DisplayName": "Quốc lộ 1 - KCX Linh Trung 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.768741607666,10.872081942303]}",
+            "PTZ": "False",
+            "Title": "TTH 21.3"
+        },
+        {
+            "Angle": "240",
+            "CamId": "5b19d34faf4ff60011d6ea52",
+            "Disctrict": null,
+            "DisplayName": "Nguyễn Tất Thành - Tôn Đản",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.708472371101,10.7625638146636]}",
+            "PTZ": "False",
+            "Title": "TTH 120.2"
+        },
+        {
+            "Angle": "210",
+            "CamId": "58af8eb2bd82540010390c30",
+            "Disctrict": "Quận 3",
+            "DisplayName": "Nam Kỳ Khởi Nghĩa -Nguyễn Thị Minh Khai 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.695082783699,10.7797542439016]}",
+            "PTZ": "False",
+            "Title": "TTH 35.6"
+        },
+        {
+            "Angle": "150",
+            "CamId": "58b0084b17139d0010f35cd7",
+            "Disctrict": null,
+            "DisplayName": "An Sương (1)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.61565721035,10.8422891771052]}",
+            "PTZ": "False",
+            "Title": "Khu3 4"
+        },
+        {
+            "Angle": "90",
+            "CamId": "58b0087a17139d0010f35cd9",
+            "Disctrict": null,
+            "DisplayName": "An Sương (2)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.615115404129,10.8430109821181]}",
+            "PTZ": "False",
+            "Title": "Khu3 5"
+        },
+        {
+            "Angle": "60",
+            "CamId": "5a8255a55058170011f6eac7",
+            "Disctrict": null,
+            "DisplayName": "BX Miền Đông - Đinh Bộ Lĩnh 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.711433529854,10.8168141411482]}",
+            "PTZ": "False",
+            "Title": "TTH 109.1"
+        },
+        {
+            "Angle": "240",
+            "CamId": "5ad0679598d8fc001102e274",
+            "Disctrict": null,
+            "DisplayName": "Lê Văn Việt - Man Thiện",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.786707043648,10.8452343413582]}",
+            "PTZ": "False",
+            "Title": "TTH 105.3"
+        },
+        {
+            "Angle": null,
+            "CamId": "5a6069238576340017d0661c",
+            "Disctrict": null,
+            "DisplayName": "Bạch Đằng - Lê Quang Định",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.698435544968,10.8026188385378]}",
+            "PTZ": "False",
+            "Title": "TTH 44.6"
+        },
+        {
+            "Angle": "345",
+            "CamId": "5a8266105058170011f6eadf",
+            "Disctrict": null,
+            "DisplayName": "Nguyễn Văn Linh - Quốc lộ 50 (2)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.655761599541,10.7190774577163]}",
+            "PTZ": "False",
+            "Title": "TTH 121.2"
+        },
+        {
+            "Angle": "105",
+            "CamId": "5a8278f35058170011f6eaed",
+            "Disctrict": null,
+            "DisplayName": "Nguyễn Văn Linh - Phạm Hùng 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.677117347717,10.7284488196731]}",
+            "PTZ": "False",
+            "Title": "TTH 122.1"
+        },
+        {
+            "Angle": null,
+            "CamId": "56de42f611f398ec0c4812a1",
+            "Disctrict": "Quận 2",
+            "DisplayName": "Nút giao Mỹ Thủy 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.7747069,10.769926]}",
+            "PTZ": "False",
+            "Title": "TTH 22.3"
+        },
+        {
+            "Angle": "180",
+            "CamId": "58744dd9b807da0011e33cb5",
+            "Disctrict": "Quận 8",
+            "DisplayName": "Quốc lộ 50 - Tạ Quang Bửu",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.656190752983,10.7341621509602]}",
+            "PTZ": "False",
+            "Title": "TTH 42.1"
+        },
+        {
+            "Angle": "180",
+            "CamId": "597bf0b8faa7ea0011c7c293",
+            "Disctrict": null,
+            "DisplayName": "Cầu Phú Hữu 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.791679859161,10.8163926125139]}",
+            "PTZ": "False",
+            "Title": "TTH 98"
+        },
+        {
+            "Angle": "120",
+            "CamId": "56df807bc062921100c143da",
+            "Disctrict": "Quận Tân Bình",
+            "DisplayName": "Trường Chinh - Âu Cơ",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.63648724556,10.8019180137061]}",
+            "PTZ": "False",
+            "Title": "TTH 28.3"
+        },
+        {
+            "Angle": null,
+            "CamId": "589d0b74b3bf7600110283d4",
+            "Disctrict": "Quận 2",
+            "DisplayName": "Cầu Sài Gòn 3 (Q2-Bình Thạnh)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.731158494949,10.799710141326]}",
+            "PTZ": "False",
+            "Title": "TTH 49.3"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515ad1e",
+            "Disctrict": null,
+            "DisplayName": "Pasteur - Hàm Nghi",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.702639,10.770674]}",
+            "PTZ": "True",
+            "Title": "ITS 9.5"
+        },
+        {
+            "Angle": null,
+            "CamId": "5a606a0f8576340017d0661e",
+            "Disctrict": null,
+            "DisplayName": "Nơ Trang Long - Nguyễn Xí",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.704116463661,10.8200809679719]}",
+            "PTZ": "False",
+            "Title": "TTH 44.7"
+        },
+        {
+            "Angle": "15",
+            "CamId": "5a825b7d5058170011f6ead4",
+            "Disctrict": null,
+            "DisplayName": "Nguyễn Văn Linh - Nguyễn Hữu Thọ (3)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.700441837311,10.7282010989927]}",
+            "PTZ": "False",
+            "Title": "TTH 117.3"
+        },
+        {
+            "Angle": "75",
+            "CamId": "5a82628e5058170011f6eadb",
+            "Disctrict": null,
+            "DisplayName": "Nguyễn Văn Linh - Quốc lộ 50 (1)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.655665040016,10.7199365991593]}",
+            "PTZ": "False",
+            "Title": "TTH 121.1"
+        },
+        {
+            "Angle": "345",
+            "CamId": "586e1f18f9fab7001111b0a5",
+            "Disctrict": "Quận Tân Bình",
+            "DisplayName": "Cộng Hòa - Trường Chinh",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.634953022003,10.8070661399436]}",
+            "PTZ": "False",
+            "Title": "TTH 38.1"
+        },
+        {
+            "Angle": "60",
+            "CamId": "58df4d95dc195800111e04b9",
+            "Disctrict": "Quận Tân Bình",
+            "DisplayName": "Phổ Quang - Hoàng Minh Giám",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.672879457474,10.8079619154301]}",
+            "PTZ": "False",
+            "Title": "TTH 26.4"
+        },
+        {
+            "Angle": "135",
+            "CamId": "5b632950fd4edb0019c7dc07",
+            "Disctrict": null,
+            "DisplayName": "Nguyễn Văn Cừ - Trần Hưng Đạo 3",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.684874296188,10.7568773715932]}",
+            "PTZ": "False",
+            "Title": "TTH 131"
+        },
+        {
+            "Angle": "45",
+            "CamId": "56de42f611f398ec0c481294",
+            "Disctrict": "Quận 1",
+            "DisplayName": "Đường hầm - Đầu Quận 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.702040433884,10.7675334356397]}",
+            "PTZ": "False",
+            "Title": "TTH 14.2"
+        },
+        {
+            "Angle": "120",
+            "CamId": "56df85bdc062921100c143e8",
+            "Disctrict": "Quận Tân Bình",
+            "DisplayName": "Phan Đình Giót - Phan Thúc Duyện",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.665642857552,10.8015070028935]}",
+            "PTZ": "False",
+            "Title": "TTH 26"
+        },
+        {
+            "Angle": "225",
+            "CamId": "58df4adedc195800111e04b4",
+            "Disctrict": "Quận Tân Bình",
+            "DisplayName": "Phổ Quang - Huỳnh Lan Khanh",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.666592359543,10.8049689609963]}",
+            "PTZ": "False",
+            "Title": "TTH 26.2"
+        },
+        {
+            "Angle": "255",
+            "CamId": "5990ffdbbec3b90016d2ad2d",
+            "Disctrict": null,
+            "DisplayName": "Đường hầm - Đầu Quận 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.713402271271,10.7705847317646]}",
+            "PTZ": "False",
+            "Title": "TTH 60.2"
+        },
+        {
+            "Angle": "330",
+            "CamId": "56df84abc062921100c143e5",
+            "Disctrict": "Quận Gò Vấp",
+            "DisplayName": "Nút giao Nguyễn Thái Sơn 3 (Phạm Văn Đồng)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.679236292839,10.8142217306645]}",
+            "PTZ": "False",
+            "Title": "TTH 24.2"
+        },
+        {
+            "Angle": "345",
+            "CamId": "58abc0cbbd82540010390ba6",
+            "Disctrict": "Quận Bình Thạnh",
+            "DisplayName": "Cầu Sài Gòn 7 (Dạ cầu Bình Thạnh)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.724517345428,10.7980555437486]}",
+            "PTZ": "False",
+            "Title": "TTH 49.9"
+        },
+        {
+            "Angle": "75",
+            "CamId": "58abbf72bd82540010390ba4",
+            "Disctrict": "Quận 2",
+            "DisplayName": "Cầu Sài Gòn 4 (Bình Thạnh - Q2)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.726319789886,10.7985614089434]}",
+            "PTZ": "False",
+            "Title": "TTH 49.4"
+        },
+        {
+            "Angle": "300",
+            "CamId": "5b0b7bbe0e517b00119fd806",
+            "Disctrict": null,
+            "DisplayName": "Nguyễn Văn Cừ - Trần Hưng Đạo 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.685357093811,10.7563925169909]}",
+            "PTZ": "False",
+            "Title": "TTH 126.2"
+        },
+        {
+            "Angle": "120",
+            "CamId": "5b0b7aba0e517b00119fd800",
+            "Disctrict": null,
+            "DisplayName": "Nguyễn Văn Cừ - Trần Hưng Đạo 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.685024499893,10.7565084605536]}",
+            "PTZ": "False",
+            "Title": "TTH 126.1"
+        },
+        {
+            "Angle": null,
+            "CamId": "5a825ab55058170011f6ead2",
+            "Disctrict": null,
+            "DisplayName": "Nguyễn Văn Linh - Nguyễn Hữu Thọ (2)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.700313091278,10.7289864255581]}",
+            "PTZ": "False",
+            "Title": "TTH 117.2"
+        },
+        {
+            "Angle": "30",
+            "CamId": "58b5528e17139d0010f35d52",
+            "Disctrict": "Quận 9",
+            "DisplayName": "Xa Lộ Hà Nội - Đường D400",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.807773113251,10.8719449708741]}",
+            "PTZ": "False",
+            "Title": "TTH 33.4"
+        },
+        {
+            "Angle": "240",
+            "CamId": "5a823ba75058170011f6ea9e",
+            "Disctrict": null,
+            "DisplayName": "Trần Hưng Đạo - Nguyễn Thái Học 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.695769429207,10.7682501504601]}",
+            "PTZ": "False",
+            "Title": "TTH 100.1"
+        },
+        {
+            "Angle": "165",
+            "CamId": "59d34ce302eb490011a0a616",
+            "Disctrict": null,
+            "DisplayName": "Đỗ Xuân Hợp - Cầu Cống Đập.",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.7762196064,10.8104489957249]}",
+            "PTZ": "False",
+            "Title": "TTH 33.7"
+        },
+        {
+            "Angle": "180",
+            "CamId": "56df83d8c062921100c143e3",
+            "Disctrict": "Quận Gò Vấp",
+            "DisplayName": "Nút giao Nguyễn Thái Sơn 1 (Hồng Hà)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.678351163864,10.8140847327392]}",
+            "PTZ": "False",
+            "Title": "TTH 24.1"
+        },
+        {
+            "Angle": "60",
+            "CamId": "58746488b807da0011e33cd7",
+            "Disctrict": "Quận Thủ Đức",
+            "DisplayName": "Cầu vượt Sóng Thần 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.748507022858,10.8743050851613]}",
+            "PTZ": "False",
+            "Title": "TTH 21.10"
+        },
+        {
+            "Angle": "105",
+            "CamId": "5874644cb807da0011e33cd5",
+            "Disctrict": "Quận Thủ Đức",
+            "DisplayName": "Cầu vượt Sóng Thần 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.750985383987,10.8758064874328]}",
+            "PTZ": "False",
+            "Title": "TTH 21.9"
+        },
+        {
+            "Angle": null,
+            "CamId": "587463bab807da0011e33cd3",
+            "Disctrict": "Quận Thủ Đức",
+            "DisplayName": "Quốc lộ 1 - Lê Thị Hoa",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.748399734497,10.8747792130109]}",
+            "PTZ": "False",
+            "Title": "TTH 21.8"
+        },
+        {
+            "Angle": "45",
+            "CamId": "5a8269c45058170011f6eae4",
+            "Disctrict": null,
+            "DisplayName": "Cầu Phú Mỹ (Q7)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.7367374897,10.7409610852775]}",
+            "PTZ": "False",
+            "Title": "TTH 124.1"
+        },
+        {
+            "Angle": "345",
+            "CamId": "5874796db807da0011e33cf7",
+            "Disctrict": "Quận Tân Bình",
+            "DisplayName": "Trường Chinh - Tây Thạnh 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.630790233612,10.8199228965258]}",
+            "PTZ": "False",
+            "Title": "TTH 28.7"
+        },
+        {
+            "Angle": null,
+            "CamId": "5a824f975058170011f6eab8",
+            "Disctrict": null,
+            "DisplayName": "Nguyễn Oanh - Phan Văn Trị (2)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.676913499832,10.8310719980749]}",
+            "PTZ": "False",
+            "Title": "TTH 116.2"
+        },
+        {
+            "Angle": "240",
+            "CamId": "58ad69c4bd82540010390be7",
+            "Disctrict": "Quận Phú Nhuận",
+            "DisplayName": "Nút giao Phú Nhuận 2 (Phan Đăng Lưu)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.680368185043,10.7993096663153]}",
+            "PTZ": "False",
+            "Title": "TTH 34.10"
+        },
+        {
+            "Angle": "120",
+            "CamId": "5a8250cc5058170011f6eaba",
+            "Disctrict": null,
+            "DisplayName": "Lê Văn Việt - Đình Phong Phú 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.78128361702,10.8445494220268]}",
+            "PTZ": "False",
+            "Title": "TTH 105.1"
+        },
+        {
+            "Angle": "285",
+            "CamId": "5a8251575058170011f6eabc",
+            "Disctrict": null,
+            "DisplayName": "Lê Văn Việt - Đình Phong Phú 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.781578660011,10.8444335124463]}",
+            "PTZ": "False",
+            "Title": "TTH 105.2"
+        },
+        {
+            "Angle": "330",
+            "CamId": "5a8279865058170011f6eaef",
+            "Disctrict": null,
+            "DisplayName": "Nguyễn Văn Linh - Phạm Hùng 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.677889823914,10.7275738904052]}",
+            "PTZ": "False",
+            "Title": "TTH 122.2"
+        },
+        {
+            "Angle": "135",
+            "CamId": "58e49783d9d6200011e0b9ce",
+            "Disctrict": "Quận 12",
+            "DisplayName": "Trường Chinh - Phan Văn Hớn 2 (HM-Q12)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.624760627747,10.8274733494884]}",
+            "PTZ": "False",
+            "Title": "TTH 28.10"
+        },
+        {
+            "Angle": "15",
+            "CamId": "5a606c078576340017d06624",
+            "Disctrict": null,
+            "DisplayName": "Quốc lộ 13 - Hiệp Bình",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.718916893005,10.8495545656016]}",
+            "PTZ": "False",
+            "Title": "TTH 21.16"
+        },
+        {
+            "Angle": "300",
+            "CamId": "587c79e9b807da0011e33d3d",
+            "Disctrict": "Quận Bình Thạnh",
+            "DisplayName": "Điện Biên Phủ - Nguyễn Văn Thương (D1)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.71789765358,10.7996258308418]}",
+            "PTZ": "False",
+            "Title": "TTH 40.3"
+        },
+        {
+            "Angle": "180",
+            "CamId": "5a8259035058170011f6eacf",
+            "Disctrict": null,
+            "DisplayName": "Nguyễn Văn Linh - Nguyễn Hữu Thọ (1)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.700549125671,10.7291234621994]}",
+            "PTZ": "False",
+            "Title": "TTH 117.1"
+        },
+        {
+            "Angle": "45",
+            "CamId": "56df81d8c062921100c143de",
+            "Disctrict": "Quận Thủ Đức",
+            "DisplayName": "Nút giao Thủ Đức (trên cầu)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.774009466171,10.8491804998734]}",
+            "PTZ": "False",
+            "Title": "TTH 32.2"
+        },
+        {
+            "Angle": "45",
+            "CamId": "59d3414302eb490011a0a610",
+            "Disctrict": null,
+            "DisplayName": "Xa Lộ Hà Nội - Đường 120",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.803814172745,10.8674828287814]}",
+            "PTZ": "False",
+            "Title": "TTH 33.6"
+        },
+        {
+            "Angle": "240",
+            "CamId": "5b0b7e1c0e517b00119fd80b",
+            "Disctrict": null,
+            "DisplayName": "Nguyễn Duy Trinh (Chợ Long Trường)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.823662519455,10.8067078290005]}",
+            "PTZ": "False",
+            "Title": "TTH 127"
+        },
+        {
+            "Angle": "270",
+            "CamId": "586e1d4ef9fab7001111b0a2",
+            "Disctrict": "Quận Tân Bình",
+            "DisplayName": "Cộng Hòa - Đường C 18",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.651110649109,10.8016071209638]}",
+            "PTZ": "False",
+            "Title": "TTH 38.2"
+        },
+        {
+            "Angle": "90",
+            "CamId": "5a8253bc5058170011f6eac1",
+            "Disctrict": null,
+            "DisplayName": "Đinh Bộ Lĩnh - Bạch Đằng 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.709395051003,10.8030930799773]}",
+            "PTZ": "False",
+            "Title": "TTH 107.2"
+        },
+        {
+            "Angle": "30",
+            "CamId": "58b57a6c17139d0010f35d65",
+            "Disctrict": "Quận 9",
+            "DisplayName": "Xa Lộ Hà Nội - Đường D13",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.812987327576,10.8790147216882]}",
+            "PTZ": "False",
+            "Title": "TTH 33.5"
+        },
+        {
+            "Angle": "180",
+            "CamId": "56de42f611f398ec0c48128b",
+            "Disctrict": "Quận 1",
+            "DisplayName": "Võ Văn Kiệt - Nguyễn Văn Cừ 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.68691277504,10.7543213358374]}",
+            "PTZ": "False",
+            "Title": "TTH 9.1"
+        },
+        {
+            "Angle": "45",
+            "CamId": "58175c81edeb6c0012a2d5c2",
+            "Disctrict": "Quận 2",
+            "DisplayName": "Mai Chí Thọ - Trần Não 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.727376580238,10.7757228548636]}",
+            "PTZ": "False",
+            "Title": "TTH 4.2"
+        },
+        {
+            "Angle": "255",
+            "CamId": "5b87c386ca057700116404a6",
+            "Disctrict": null,
+            "DisplayName": "Đường hầm - Đầu Quận 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.715902090073,10.7710432140034]}",
+            "PTZ": "False",
+            "Title": "TTH 60.4"
+        },
+        {
+            "Angle": "75",
+            "CamId": "56de42f611f398ec0c481293",
+            "Disctrict": "Quận 5",
+            "DisplayName": "Võ Văn Kiệt - Hải Thượng Lãn Ông 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.663234233856,10.7499786604875]}",
+            "PTZ": "False",
+            "Title": "TTH 14.1"
+        },
+        {
+            "Angle": "225",
+            "CamId": "56de42f611f398ec0c481287",
+            "Disctrict": "Quận 1",
+            "DisplayName": "Võ Văn Kiệt - Ký Con",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.700146794319,10.7654781410386]}",
+            "PTZ": "False",
+            "Title": "TTH 6.1"
+        },
+        {
+            "Angle": "75",
+            "CamId": "56de42f611f398ec0c48128f",
+            "Disctrict": "Quận 5",
+            "DisplayName": "Võ Văn Kiệt - Huỳnh Mẫn Đạt",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.677197813988,10.751960277381]}",
+            "PTZ": "False",
+            "Title": "TTH 11.1"
+        },
+        {
+            "Angle": "225",
+            "CamId": "56de42f611f398ec0c481286",
+            "Disctrict": "Quận 2",
+            "DisplayName": "Mai Chí Thọ - Nguyễn Cơ Thạch 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.722918748856,10.7733830435244]}",
+            "PTZ": "False",
+            "Title": "TTH 5.2"
+        },
+        {
+            "Angle": null,
+            "CamId": "56de42f611f398ec0c481291",
+            "Disctrict": "Quận 5",
+            "DisplayName": "Võ Văn Kiệt - Nguyễn Tri Phương 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.668738126755,10.7503370389747]}",
+            "PTZ": "False",
+            "Title": "TTH 13.1"
+        },
+        {
+            "Angle": null,
+            "CamId": "56de42f611f398ec0c481295",
+            "Disctrict": null,
+            "DisplayName": "Võ Văn Kiệt - Cầu Chà Và 1 (dạ cầu)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.659994125366,10.7490827124077]}",
+            "PTZ": "False",
+            "Title": "TTH 15.1"
+        },
+        {
+            "Angle": "315",
+            "CamId": "56de42f611f398ec0c48128e",
+            "Disctrict": "Quận 5",
+            "DisplayName": "Võ Văn Kiệt - Cầu Chữ Y 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.684101819992,10.7514332528817]}",
+            "PTZ": "False",
+            "Title": "TTH 10.2"
+        },
+        {
+            "Angle": "270",
+            "CamId": "5822adbbedeb6c0012a2d65f",
+            "Disctrict": "Quận 5",
+            "DisplayName": "Võ Văn Kiệt - Cầu Chữ Y 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.68367266655,10.7519444666594]}",
+            "PTZ": "False",
+            "Title": "TTH 10.1"
+        },
+        {
+            "Angle": "75",
+            "CamId": "56de42f611f398ec0c481296",
+            "Disctrict": "Quận 6",
+            "DisplayName": "Võ Văn Kiệt - Cao Văn Lầu",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.650842428207,10.7442498171975]}",
+            "PTZ": "False",
+            "Title": "TTH 16.1"
+        },
+        {
+            "Angle": "225",
+            "CamId": "56de42f611f398ec0c481283",
+            "Disctrict": "Quận 2",
+            "DisplayName": "Mai Chí Thọ - Trần Não 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.72761797905,10.775796632403]}",
+            "PTZ": "False",
+            "Title": "TTH 4.1"
+        },
+        {
+            "Angle": "45",
+            "CamId": "5822b5ededeb6c0012a2d66a",
+            "Disctrict": "Quận 2",
+            "DisplayName": "Mai Chí Thọ - Nguyễn Cơ Thạch 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.722586154938,10.7732144077704]}",
+            "PTZ": "False",
+            "Title": "TTH 5.1"
+        },
+        {
+            "Angle": "195",
+            "CamId": "56de42f611f398ec0c48128d",
+            "Disctrict": "Quận 5",
+            "DisplayName": "Hải Thượng Lãn Ông - Cầu Chà Và",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.660031676292,10.7505847415039]}",
+            "PTZ": "False",
+            "Title": "TTH 2a"
+        },
+        {
+            "Angle": "210",
+            "CamId": "56de42f611f398ec0c481288",
+            "Disctrict": "Quận 1",
+            "DisplayName": "Võ Văn Kiệt - Cầu Ông Lãnh 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.697652339935,10.7637917349984]}",
+            "PTZ": "False",
+            "Title": "TTH 7.1"
+        },
+        {
+            "Angle": "60",
+            "CamId": "5b0e1faacddcc80011ceb449",
+            "Disctrict": null,
+            "DisplayName": "Mai Chí Thọ - Đường D1 (3)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.739875674248,10.7819095656909]}",
+            "PTZ": "False",
+            "Title": "TTH 200.3"
+        },
+        {
+            "Angle": "270",
+            "CamId": "56de42f611f398ec0c481297",
+            "Disctrict": "Quận 5",
+            "DisplayName": "Võ Văn Kiệt - Nguyễn Tri Phương 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.670079231262,10.7503686605855]}",
+            "PTZ": "False",
+            "Title": "TTH 13.2"
+        },
+        {
+            "Angle": "255",
+            "CamId": "56de42f611f398ec0c481289",
+            "Disctrict": "Quận 1",
+            "DisplayName": "Võ Văn Kiệt - Cầu Ông Lãnh 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.698285341263,10.7639024056841]}",
+            "PTZ": "False",
+            "Title": "TTH 7.2"
+        },
+        {
+            "Angle": "120",
+            "CamId": "56de42f611f398ec0c481290",
+            "Disctrict": "Quận 5",
+            "DisplayName": "Võ Văn Kiệt - An Bình",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.673292517662,10.7493356862526]}",
+            "PTZ": "False",
+            "Title": "TTH 12.1"
+        },
+        {
+            "Angle": "60",
+            "CamId": "56f8e708025e9511002786cb",
+            "Disctrict": null,
+            "DisplayName": "Đường hầm - Ký Con",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.699186563492,10.7646665593097]}",
+            "PTZ": "False",
+            "Title": "TTH 57"
+        },
+        {
+            "Angle": "60",
+            "CamId": "59414c883dcfc400106f260b",
+            "Disctrict": null,
+            "DisplayName": "Cộng Hòa - Bình Giã",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.645107865334,10.8018653200436]}",
+            "PTZ": "False",
+            "Title": "TTH 38.9"
+        },
+        {
+            "Angle": "345",
+            "CamId": "586e2995f9fab7001111b0b5",
+            "Disctrict": "Quận Bình Thạnh",
+            "DisplayName": "Ung Văn Khiêm - Nguyễn Gia Trí (D2)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.716395616531,10.8075192972885]}",
+            "PTZ": "False",
+            "Title": "TTH 40.1"
+        },
+        {
+            "Angle": "300",
+            "CamId": "56de42f611f398ec0c4812a0",
+            "Disctrict": "Quận 2",
+            "DisplayName": "Nguyễn Thị Định - Đường A",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.783590316772,10.7627851568961]}",
+            "PTZ": "False",
+            "Title": "TTH 22.5"
+        },
+        {
+            "Angle": "45",
+            "CamId": "587654d3b807da0011e33d36",
+            "Disctrict": "Quận 2",
+            "DisplayName": "Võ Chí Công - Đường số 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.767582893372,10.7625480044979]}",
+            "PTZ": "False",
+            "Title": "TTH 22.12"
+        },
+        {
+            "Angle": null,
+            "CamId": "5aab1f852d266a0017e5afd4",
+            "Disctrict": null,
+            "DisplayName": "Cầu Phú Mỹ - Quận 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.754032373428,10.7496677141024]}",
+            "PTZ": "False",
+            "Title": "TTH 124.2"
+        },
+        {
+            "Angle": "270",
+            "CamId": "56de42f611f398ec0c4812a2",
+            "Disctrict": "Quận 2",
+            "DisplayName": "Nút giao Mỹ Thủy 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.7755866,10.7701157]}",
+            "PTZ": "False",
+            "Title": "TTH 22.4"
+        },
+        {
+            "Angle": "285",
+            "CamId": "5a824c905058170011f6eab0",
+            "Disctrict": null,
+            "DisplayName": "Nút giao Bốn Xã 2 (Hòa Bình)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.62178337574,10.7736939654481]}",
+            "PTZ": "False",
+            "Title": "TTH 104.3"
+        },
+        {
+            "Angle": "315",
+            "CamId": "56f11ac33ac17b11001c504c",
+            "Disctrict": "Quận Phú Nhuận",
+            "DisplayName": "Nguyễn Văn Trỗi - Hoàng Văn Thụ 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.668410897255,10.7996311002478]}",
+            "PTZ": "False",
+            "Title": "TTH 34.1"
+        },
+        {
+            "Angle": "15",
+            "CamId": "58ad6214bd82540010390be2",
+            "Disctrict": "Quận Tân Bình",
+            "DisplayName": "Cộng Hòa - Hoàng Hoa Thám",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.647366285324,10.8013120360293]}",
+            "PTZ": "False",
+            "Title": "TTH 38.8"
+        },
+        {
+            "Angle": "90",
+            "CamId": "591c662ba6bfb5001194009c",
+            "Disctrict": "Huyện Nhà Bè",
+            "DisplayName": "Cầu Long Kiểng (HCM)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.70245885849,10.6891377555772]}",
+            "PTZ": "False",
+            "Title": "TTH 48.6"
+        },
+        {
+            "Angle": "15",
+            "CamId": "56f8d743025e9511002786c5",
+            "Disctrict": "Quận Tân Bình",
+            "DisplayName": "Trường Sơn - Ga Quốc Nội 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.665004491806,10.8123880609396]}",
+            "PTZ": "False",
+            "Title": "TTH 29.2"
+        },
+        {
+            "Angle": "240",
+            "CamId": "591c6cdfa6bfb500119400aa",
+            "Disctrict": "Huyện Nhà Bè",
+            "DisplayName": "Cầu Rạch Dơi (Hướng LA)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.687030792236,10.6558000073154]}",
+            "PTZ": "False",
+            "Title": "TTH 48.11"
+        },
+        {
+            "Angle": "45",
+            "CamId": "591c6d3ba6bfb500119400ac",
+            "Disctrict": "Huyện Nhà Bè",
+            "DisplayName": "Cầu Rạch Dơi (HCM)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.687438488007,10.6562006724077]}",
+            "PTZ": "False",
+            "Title": "TTH 48.12"
+        },
+        {
+            "Angle": "225",
+            "CamId": "58744693b807da0011e33c9e",
+            "Disctrict": "Quận 2",
+            "DisplayName": "Võ Chí Công - Cầu Kỳ Hà 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.759203672409,10.753947151466]}",
+            "PTZ": "False",
+            "Title": "TTH 22.11"
+        },
+        {
+            "Angle": "270",
+            "CamId": "58744810b807da0011e33ca2",
+            "Disctrict": "Quận 7",
+            "DisplayName": "Nguyễn Văn Linh - Cầu Ông Lớn 3 làn",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.690313816071,10.7281220391583]}",
+            "PTZ": "False",
+            "Title": "TTH 41.2"
+        },
+        {
+            "Angle": "15",
+            "CamId": "5a8254b05058170011f6eac3",
+            "Disctrict": null,
+            "DisplayName": "Xô Viết Nghệ Tĩnh - Nguyễn Xí 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.712254285812,10.809674419948]}",
+            "PTZ": "False",
+            "Title": "TTH 108.1"
+        },
+        {
+            "Angle": "300",
+            "CamId": "583f976361cfea0012cf68f9",
+            "Disctrict": "Quận 2",
+            "DisplayName": "Nguyễn Thị Định - Lê Phụng Hiểu",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.784512996674,10.7619577577189]}",
+            "PTZ": "False",
+            "Title": "TTH 22.8"
+        },
+        {
+            "Angle": "195",
+            "CamId": "5a606dbc8576340017d0662b",
+            "Disctrict": null,
+            "DisplayName": "Điện Biên Phủ - Nguyễn Hữu Cảnh",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.721127033234,10.7978184191454]}",
+            "PTZ": "False",
+            "Title": "TTH 40.4"
+        },
+        {
+            "Angle": "45",
+            "CamId": "5a606a958576340017d06621",
+            "Disctrict": null,
+            "DisplayName": "Đinh Bộ Lĩnh - Bạch Đằng 3",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.709464788437,10.8028664980496]}",
+            "PTZ": "False",
+            "Title": "TTH 44.8"
+        },
+        {
+            "Angle": "300",
+            "CamId": "5ad0621c98d8fc001102e268",
+            "Disctrict": null,
+            "DisplayName": "Lý Tự Trọng - Hai Bà Trưng 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.702335476875,10.779137682017]}",
+            "PTZ": "False",
+            "Title": "TTH 101.2"
+        },
+        {
+            "Angle": "225",
+            "CamId": "585b2980c3f96200127dc502",
+            "Disctrict": "Quận 7",
+            "DisplayName": "Huỳnh Tấn Phát - Lưu Trọng Lư 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.727993488312,10.755127675229]}",
+            "PTZ": "False",
+            "Title": "TTH 37.2"
+        },
+        {
+            "Angle": "315",
+            "CamId": "5a824ee15058170011f6eab6",
+            "Disctrict": null,
+            "DisplayName": "Nguyễn Oanh - Phan Văn Trị (1)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.67790055275,10.8306083386046]}",
+            "PTZ": "False",
+            "Title": "TTH 116.1"
+        },
+        {
+            "Angle": null,
+            "CamId": "5a8253615058170011f6eabf",
+            "Disctrict": null,
+            "DisplayName": "Đinh Bộ Lĩnh - Bạch Đằng 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.710022687912,10.8030720025958]}",
+            "PTZ": "False",
+            "Title": "TTH 107.1"
+        },
+        {
+            "Angle": "285",
+            "CamId": "58746371b807da0011e33cd1",
+            "Disctrict": "Quận Thủ Đức",
+            "DisplayName": "Quốc lộ 1 - Đường 14",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.775951385498,10.8696796650458]}",
+            "PTZ": "False",
+            "Title": "TTH 21.7"
+        },
+        {
+            "Angle": "240",
+            "CamId": "587461c1b807da0011e33cc8",
+            "Disctrict": "Quận Thủ Đức",
+            "DisplayName": "Quốc lộ 1 - KCX Linh Trung 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.765501499176,10.8735570152435]}",
+            "PTZ": "False",
+            "Title": "TTH 21.4"
+        },
+        {
+            "Angle": "105",
+            "CamId": "58746314b807da0011e33cce",
+            "Disctrict": "Quận Thủ Đức",
+            "DisplayName": "Quốc lộ 1 - Cầu vượt Linh Xuân",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.765040159225,10.8733304866588]}",
+            "PTZ": "False",
+            "Title": "TTH 21.6"
+        },
+        {
+            "Angle": "315",
+            "CamId": "58b555ac17139d0010f35d59",
+            "Disctrict": "Quận 8",
+            "DisplayName": "Tùng Thiện Vương - Cầu Nhị Thiên Đường",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.656072735786,10.7443815765443]}",
+            "PTZ": "False",
+            "Title": "TTH 42.5"
+        },
+        {
+            "Angle": "90",
+            "CamId": "587470c2b807da0011e33ce4",
+            "Disctrict": "Quận Bình Thạnh",
+            "DisplayName": "Nguyễn Hữu Cảnh - Ngô Tất Tố (Cầu Thủ Thiêm 1)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.715097427368,10.7892027649838]}",
+            "PTZ": "False",
+            "Title": "TTH 40.2"
+        },
+        {
+            "Angle": "285",
+            "CamId": "585b2baec3f96200127dc508",
+            "Disctrict": "Quận 7",
+            "DisplayName": "Nguyễn Văn Linh - Huỳnh Tấn Phát 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.728331446648,10.7525452734972]}",
+            "PTZ": "False",
+            "Title": "TTH 37.4"
+        },
+        {
+            "Angle": "195",
+            "CamId": "585b2b1ec3f96200127dc505",
+            "Disctrict": "Quận 7",
+            "DisplayName": "Nguyễn Văn Linh - Huỳnh Tấn Phát 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.728594303131,10.7528825680397]}",
+            "PTZ": "False",
+            "Title": "TTH 37.3"
+        },
+        {
+            "Angle": "225",
+            "CamId": "587c8183b807da0011e33d3f",
+            "Disctrict": "Quận Tân Bình",
+            "DisplayName": "Trần Quốc Hoàn - Hoàng Văn Thụ",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.662268638611,10.8013067666529]}",
+            "PTZ": "False",
+            "Title": "TTH 27.2"
+        },
+        {
+            "Angle": "345",
+            "CamId": "5874769eb807da0011e33cec",
+            "Disctrict": "Quận Tân Bình",
+            "DisplayName": "Cộng Hòa - Út Tịch 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.657757163048,10.8001053464053]}",
+            "PTZ": "False",
+            "Title": "TTH 38.3"
+        },
+        {
+            "Angle": "225",
+            "CamId": "58df50ffdc195800111e04c0",
+            "Disctrict": "Quận Tân Bình",
+            "DisplayName": "Cộng Hòa - Thăng Long",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.660755872726,10.8009484488364]}",
+            "PTZ": "False",
+            "Title": "TTH 26.7"
+        },
+        {
+            "Angle": "240",
+            "CamId": "591c6b71a6bfb500119400a5",
+            "Disctrict": "Huyện Nhà Bè",
+            "DisplayName": "Cầu Cái Tâm (Long An)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.577231884003,10.6945039266875]}",
+            "PTZ": "False",
+            "Title": "TTH 48.9"
+        },
+        {
+            "Angle": "255",
+            "CamId": "5ad06a0d98d8fc001102e27b",
+            "Disctrict": null,
+            "DisplayName": "Vĩnh Lộc - Nguyễn Thị Tú 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.579318642616,10.8135578170586]}",
+            "PTZ": "False",
+            "Title": "TTH 119.2"
+        },
+        {
+            "Angle": "60",
+            "CamId": "5a82602c5058170011f6ead9",
+            "Disctrict": null,
+            "DisplayName": "Vĩnh Lộc - Nguyễn Thị Tú 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.579173803329,10.8135788937036]}",
+            "PTZ": "False",
+            "Title": "TTH 119.1"
+        },
+        {
+            "Angle": "210",
+            "CamId": "5b19d2f9af4ff60011d6ea4f",
+            "Disctrict": null,
+            "DisplayName": "Nguyễn Tất Thành - Xóm Chiếu",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.712136268616,10.7604452450726]}",
+            "PTZ": "False",
+            "Title": "TTH 120.1"
+        },
+        {
+            "Angle": "270",
+            "CamId": "587c8d97b807da0011e33d49",
+            "Disctrict": "Quận Phú Nhuận",
+            "DisplayName": "Hoàng Văn Thụ - Nguyễn Văn Trỗi 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.669188737869,10.8001000770077]}",
+            "PTZ": "False",
+            "Title": "TTH 34.4"
+        },
+        {
+            "Angle": "210",
+            "CamId": "5a8256315058170011f6eac9",
+            "Disctrict": null,
+            "DisplayName": "Đinh Bộ Lĩnh - Nguyễn Xí",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.709566712379,10.8133575888573]}",
+            "PTZ": "False",
+            "Title": "TTH 109.2"
+        },
+        {
+            "Angle": "270",
+            "CamId": "587c782db807da0011e33d3b",
+            "Disctrict": "Quận 2",
+            "DisplayName": "Xa lộ HN - Thảo Điền",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.738277077675,10.8010116814233]}",
+            "PTZ": "False",
+            "Title": "TTH 33.3"
+        },
+        {
+            "Angle": "270",
+            "CamId": "584e734a61cfea0012cf694f",
+            "Disctrict": "Quận Bình Tân",
+            "DisplayName": "Quốc lộ 1 - Lê Trọng Tấn",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.60130739212,10.8162345391232]}",
+            "PTZ": "False",
+            "Title": "TTH 21.37"
+        },
+        {
+            "Angle": "270",
+            "CamId": "584e71cb61cfea0012cf694b",
+            "Disctrict": "Quận Bình Tân",
+            "DisplayName": "Quốc lộ 1 - KCN Vĩnh Lộc 3",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.603265404701,10.8248968380735]}",
+            "PTZ": "False",
+            "Title": "TTH 21.36"
+        },
+        {
+            "Angle": "345",
+            "CamId": "5a825ded5058170011f6ead7",
+            "Disctrict": null,
+            "DisplayName": "Quốc lộ 50 - Cầu Ông Thìn (2)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.655831336975,10.6484508725221]}",
+            "PTZ": "False",
+            "Title": "TTH 118.2"
+        },
+        {
+            "Angle": "45",
+            "CamId": "56df857fc062921100c143e7",
+            "Disctrict": "Quận Tân Bình",
+            "DisplayName": "Phan Thúc Duyện - Trần Quốc Hoàn",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.663454174995,10.8026451853041]}",
+            "PTZ": "False",
+            "Title": "TTH 27"
+        },
+        {
+            "Angle": "60",
+            "CamId": "587464e2b807da0011e33cd9",
+            "Disctrict": "Quận Thủ Đức",
+            "DisplayName": "Cầu vượt nút giao thông Gò Dưa",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.733132600784,10.8699588780888]}",
+            "PTZ": "False",
+            "Title": "TTH 21.11"
+        },
+        {
+            "Angle": "45",
+            "CamId": "56de42f611f398ec0c48127d",
+            "Disctrict": "Quận 2",
+            "DisplayName": "Mai Chí Thọ - Xa lộ Hà Nội (Cát Lái cầu A)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.752707362175,10.8049847689326]}",
+            "PTZ": "False",
+            "Title": "TTH 1.1"
+        },
+        {
+            "Angle": "45",
+            "CamId": "56de42f611f398ec0c481282",
+            "Disctrict": "Quận 2",
+            "DisplayName": "Mai Chí Thọ - Đồng Văn Cống 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.74994468689,10.7876851195878]}",
+            "PTZ": "False",
+            "Title": "TTH 3.2"
+        },
+        {
+            "Angle": "60",
+            "CamId": "56de42f611f398ec0c48127f",
+            "Disctrict": "Quận 2",
+            "DisplayName": "Mai Chí Thọ - Lương Định Của 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.751103401184,10.791531914198]}",
+            "PTZ": "False",
+            "Title": "TTH 2.1"
+        },
+        {
+            "Angle": "180",
+            "CamId": "56de42f611f398ec0c481280",
+            "Disctrict": "Quận 2",
+            "DisplayName": "Mai Chí Thọ - Lương Định Của 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.751446723938,10.792627978172]}",
+            "PTZ": "False",
+            "Title": "TTH 2.2"
+        },
+        {
+            "Angle": "240",
+            "CamId": "58d8ebd2dc195800111e0429",
+            "Disctrict": "Quận 2",
+            "DisplayName": "Cao tốc LTDG - Cầu Bà Dạt 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.75617814064,10.7936239174516]}",
+            "PTZ": "False",
+            "Title": "TTH 1.4"
+        },
+        {
+            "Angle": "45",
+            "CamId": "56de42f611f398ec0c48127e",
+            "Disctrict": "Quận 2",
+            "DisplayName": "Mai Chí Thọ - Xa lộ Hà Nội (Cát Lái cầu B)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.754064559937,10.8062546704304]}",
+            "PTZ": "False",
+            "Title": "TTH 1.2"
+        },
+        {
+            "Angle": "315",
+            "CamId": "5b0b74280e517b00119fd7f9",
+            "Disctrict": null,
+            "DisplayName": "Nguyễn Tất Thành - Cảng Sài Gòn",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.715644598007,10.7581316657523]}",
+            "PTZ": "False",
+            "Title": "TTH 120"
+        },
+        {
+            "Angle": "135",
+            "CamId": "58175ac4edeb6c0012a2d5bb",
+            "Disctrict": "Quận 2",
+            "DisplayName": "Mai Chí Thọ - Đồng Văn Cống 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.749606728554,10.7878800952932]}",
+            "PTZ": "False",
+            "Title": "TTH 3.1"
+        },
+        {
+            "Angle": "150",
+            "CamId": "5a823bd55058170011f6eaa0",
+            "Disctrict": null,
+            "DisplayName": "Trần Hưng Đạo - Nguyễn Thái Học 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.695860624313,10.7675334356397]}",
+            "PTZ": "False",
+            "Title": "TTH 100.2"
+        },
+        {
+            "Angle": "285",
+            "CamId": "58746295b807da0011e33ccb",
+            "Disctrict": "Quận Thủ Đức",
+            "DisplayName": "Quốc lộ 1 - Bình Đường",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.758962273598,10.8752217316573]}",
+            "PTZ": "False",
+            "Title": "TTH 21.5"
+        },
+        {
+            "Angle": "300",
+            "CamId": "589b4644b3bf7600110283ce",
+            "Disctrict": "Quận 12",
+            "DisplayName": "Hà Huy Giáp - Cầu Phú Long 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.693124771118,10.8984214318454]}",
+            "PTZ": "False",
+            "Title": "TTH 48.1"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515acf4",
+            "Disctrict": null,
+            "DisplayName": "Nút giao Ngã bảy Lý Thái Tổ",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.674156,10.767465]}",
+            "PTZ": "True",
+            "Title": "ITS 1.3-1"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515acf5",
+            "Disctrict": null,
+            "DisplayName": "Nút giao Ngã bảy Lý Thái Tổ",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.674596,10.767428]}",
+            "PTZ": "True",
+            "Title": "ITS 1.3-2"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515ad1d",
+            "Disctrict": null,
+            "DisplayName": "Nguyễn Công Trứ - Calmett",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.6997312,10.7671037]}",
+            "PTZ": "True",
+            "Title": "ITS 9.4"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515ad22",
+            "Disctrict": null,
+            "DisplayName": "Nút giao Ngã sáu Nguyễn Tri Phương",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.669124,10.76009]}",
+            "PTZ": "True",
+            "Title": "ITS 10.2-2"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515ad05",
+            "Disctrict": null,
+            "DisplayName": "Điện Biên Phủ - Đinh Tiên Hoàng",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.697491,10.790705]}",
+            "PTZ": "True",
+            "Title": "ITS 4.1"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515ad14",
+            "Disctrict": null,
+            "DisplayName": "Lý Tự Trọng - Pasteur 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.699954,10.776619]}",
+            "PTZ": "True",
+            "Title": "ITS 7.53"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515ad03",
+            "Disctrict": null,
+            "DisplayName": "Nam Kỳ Khởi Nghĩa - Nguyễn Đình Chiểu",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.692835092545,10.7814721788992]}",
+            "PTZ": "True",
+            "Title": "ITS 3.5"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515ad0b",
+            "Disctrict": null,
+            "DisplayName": "Nam Kỳ Khởi Nghĩa - Lý Tự Trọng",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.699042,10.775615]}",
+            "PTZ": "True",
+            "Title": "ITS 7.1"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515acf9",
+            "Disctrict": null,
+            "DisplayName": "Nút giao Công Trường Dân Chủ",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.68202,10.777768]}",
+            "PTZ": "True",
+            "Title": "ITS 2.1-1"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515ad0d",
+            "Disctrict": null,
+            "DisplayName": "Lê Lợi - Pasteur",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.700909,10.774816]}",
+            "PTZ": "True",
+            "Title": "ITS 7.3"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515ad0e",
+            "Disctrict": null,
+            "DisplayName": "Cách Mạng Tháng Tám - Nguyễn Đình Chiểu",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.686639,10.774969]}",
+            "PTZ": "True",
+            "Title": "ITS 7.6"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515ad17",
+            "Disctrict": null,
+            "DisplayName": "Nguyễn Thị Minh Khai - Hai Bà Trưng",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.698076,10.782987]}",
+            "PTZ": "True",
+            "Title": "ITS 8.5"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515acf6",
+            "Disctrict": null,
+            "DisplayName": "Nút giao Ngã sáu Cộng Hòa",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.681205,10.765389]}",
+            "PTZ": "True",
+            "Title": "ITS 1.4-1"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515ad13",
+            "Disctrict": null,
+            "DisplayName": "Pasteur - Lê Thánh Tôn",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.700359,10.775708]}",
+            "PTZ": "True",
+            "Title": "ITS 7.52"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515ad00",
+            "Disctrict": null,
+            "DisplayName": "Điện Biên Phủ - Hai Bà Trưng",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.693720221519,10.7866311946675]}",
+            "PTZ": "True",
+            "Title": "ITS 3.1"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515ad1b",
+            "Disctrict": null,
+            "DisplayName": "Hoàng Diệu - Cầu Ông Lãnh",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.700404,10.761236]}",
+            "PTZ": "True",
+            "Title": "ITS 9.1"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515ad08",
+            "Disctrict": null,
+            "DisplayName": "Cộng Hòa - Tân Kỳ Tân Quý",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.637651324272,10.8041364085074]}",
+            "PTZ": "True",
+            "Title": "ITS 6.2"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515ad23",
+            "Disctrict": null,
+            "DisplayName": "Ba Tháng Hai - Lý Thường Kiệt",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.659903,10.763649]}",
+            "PTZ": "True",
+            "Title": "ITS 10.3"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515ad21",
+            "Disctrict": null,
+            "DisplayName": "Nút giao Ngã sáu Nguyễn Tri Phương",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.668851,10.759539]}",
+            "PTZ": "True",
+            "Title": "ITS 10.2-1"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515acfa",
+            "Disctrict": null,
+            "DisplayName": "Nút giao Công Trường Dân Chủ",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.681336,10.777664]}",
+            "PTZ": "True",
+            "Title": "ITS 2.1-2"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515ad15",
+            "Disctrict": null,
+            "DisplayName": "Lý Tự Trọng - Chu Mạnh Trinh",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.704602,10.781944]}",
+            "PTZ": "True",
+            "Title": "ITS 8.2"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515ad01",
+            "Disctrict": null,
+            "DisplayName": "Võ Thị Sáu - Hai Bà Trưng",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.691815853119,10.7878590168447]}",
+            "PTZ": "True",
+            "Title": "ITS 3.2"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515ad18",
+            "Disctrict": null,
+            "DisplayName": "Hai Bà Trưng - Lê Duẩn",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.699614,10.781431]}",
+            "PTZ": "True",
+            "Title": "ITS 8.6"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515ad16",
+            "Disctrict": null,
+            "DisplayName": "Nguyễn Thị Minh Khai - Pasteur",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.695957,10.780518]}",
+            "PTZ": "True",
+            "Title": "ITS 8.4"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515acf3",
+            "Disctrict": null,
+            "DisplayName": "Ba Tháng Hai - Lý Thái Tổ",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.668459,10.768198]}",
+            "PTZ": "True",
+            "Title": "ITS 1.2"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515ad06",
+            "Disctrict": null,
+            "DisplayName": "Đinh Tiên Hoàng - Nguyễn Đình Chiểu",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.699558,10.788566]}",
+            "PTZ": "True",
+            "Title": "ITS 4.2"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515ad12",
+            "Disctrict": null,
+            "DisplayName": "Nam Kỳ Khởi Nghĩa - Lê Lợi",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.70004,10.7731]}",
+            "PTZ": "True",
+            "Title": "ITS 7.51"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515ad20",
+            "Disctrict": null,
+            "DisplayName": "Hồng Bàng - Ngô Quyền 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.666241,10.755881]}",
+            "PTZ": "True",
+            "Title": "ITS 10.1"
+        },
+        {
+            "Angle": "120",
+            "CamId": "56de42f611f398ec0c481298",
+            "Disctrict": "Quận Bình Tân",
+            "DisplayName": "Võ Văn Kiệt - An Dương Vương 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.61993265152,10.7263616348268]}",
+            "PTZ": "False",
+            "Title": "TTH 18.1"
+        },
+        {
+            "Angle": "315",
+            "CamId": "56de42f611f398ec0c48129b",
+            "Disctrict": "Quận Bình Tân",
+            "DisplayName": "Võ Văn Kiệt - Hồ Học Lãm 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.611467599869,10.721839351587]}",
+            "PTZ": "False",
+            "Title": "TTH 19.2"
+        },
+        {
+            "Angle": "195",
+            "CamId": "56df8381c062921100c143e2",
+            "Disctrict": "Quận 7",
+            "DisplayName": "Nguyễn Hữu Thọ - Nguyễn Thị Thập 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.700946092606,10.740497286869]}",
+            "PTZ": "False",
+            "Title": "TTH 25.1"
+        },
+        {
+            "Angle": "135",
+            "CamId": "56de42f611f398ec0c48129a",
+            "Disctrict": "Quận Bình Tân",
+            "DisplayName": "Võ Văn Kiệt - Hồ Học Lãm 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.610904335976,10.722239929521]}",
+            "PTZ": "False",
+            "Title": "TTH 19.1"
+        },
+        {
+            "Angle": "180",
+            "CamId": "56de42f611f398ec0c48129d",
+            "Disctrict": "Huyện Bình Chánh",
+            "DisplayName": "Quốc lộ 1 - Trần Đại Nghĩa",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.600669026375,10.7223980522437]}",
+            "PTZ": "False",
+            "Title": "TTH 21.39"
+        },
+        {
+            "Angle": "75",
+            "CamId": "56de42f611f398ec0c481292",
+            "Disctrict": "Quận 6",
+            "DisplayName": "Võ Văn Kiệt - Phạm Phú Thứ",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.645520925522,10.7413616378753]}",
+            "PTZ": "False",
+            "Title": "TTH 17.1"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515acf7",
+            "Disctrict": null,
+            "DisplayName": "Nút giao Ngã sáu Cộng Hòa",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.68172,10.765059]}",
+            "PTZ": "True",
+            "Title": "ITS 1.4-2"
+        },
+        {
+            "Angle": "270",
+            "CamId": "5d8cd70e766c88001718894e",
+            "Disctrict": null,
+            "DisplayName": "Phạm Văn Đồng - Nguyễn Xí (hướng đi Thủ Đức)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.703445911407,10.8228313977916]}",
+            "PTZ": "False",
+            "Title": "TTH 149"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515acff",
+            "Disctrict": null,
+            "DisplayName": "Hai Bà Trưng - Lý Chính Thắng",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.687554,10.791464]}",
+            "PTZ": "True",
+            "Title": "ITS 3.3"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515ad19",
+            "Disctrict": null,
+            "DisplayName": "Nguyễn Thị Minh Khai - Mạc Đĩnh Chi",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.699659,10.784426]}",
+            "PTZ": "True",
+            "Title": "ITS 8.7"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515ad0c",
+            "Disctrict": null,
+            "DisplayName": "Nút giao Ngã sáu Phù Đổng",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.693342,10.771135]}",
+            "PTZ": "True",
+            "Title": "ITS 7.2"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515ad04",
+            "Disctrict": null,
+            "DisplayName": "Võ Thị Sáu - Pasteur",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.690008044243,10.7860304558102]}",
+            "PTZ": "True",
+            "Title": "ITS 3.51"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515ad0f",
+            "Disctrict": null,
+            "DisplayName": "Nguyễn Thị Minh Khai - Trương Định",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.691731,10.776014]}",
+            "PTZ": "True",
+            "Title": "ITS 7.4"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515ad07",
+            "Disctrict": null,
+            "DisplayName": "Nguyễn Văn Trỗi - Trương Quốc Dung",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.672665,10.797381]}",
+            "PTZ": "True",
+            "Title": "ITS 5.2"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515ad0a",
+            "Disctrict": null,
+            "DisplayName": "Hoàng Văn Thụ - Xuân Diệu",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.655729,10.795418]}",
+            "PTZ": "True",
+            "Title": "ITS 6.52"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515ad1f",
+            "Disctrict": null,
+            "DisplayName": "Hùng Vương - Ngô Gia Tự",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.666474342346,10.7563292750288]}",
+            "PTZ": "True",
+            "Title": "ITS 9.51"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515ad02",
+            "Disctrict": null,
+            "DisplayName": "Điện Biên Phủ - Pasteur",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.691552996635,10.7843441648872]}",
+            "PTZ": "True",
+            "Title": "ITS 3.4"
+        },
+        {
+            "Angle": "270",
+            "CamId": "5d9de4de766c880017188cbb",
+            "Disctrict": null,
+            "DisplayName": "Cao tốc LTDG - Võ Chí Công",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.790762543678,10.796827763223]}",
+            "PTZ": "False",
+            "Title": "TTH 1.8"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515acfe",
+            "Disctrict": null,
+            "DisplayName": "Lý Chính Thắng - Trương Định",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.683688759804,10.7825155824841]}",
+            "PTZ": "True",
+            "Title": "ITS 2.8"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515ad11",
+            "Disctrict": null,
+            "DisplayName": "Nguyễn Đình Chiểu - Trương Định",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.689658,10.777922]}",
+            "PTZ": "True",
+            "Title": "ITS 7.5"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515ad09",
+            "Disctrict": null,
+            "DisplayName": "Trường Chinh - Hoàng Hoa Thám",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.647017598152,10.7964536316791]}",
+            "PTZ": "True",
+            "Title": "ITS 6.51"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515acfd",
+            "Disctrict": null,
+            "DisplayName": "Lý Chính Thắng - Nguyễn Thông",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.682181358337,10.7793063144528]}",
+            "PTZ": "True",
+            "Title": "ITS 2.7"
+        },
+        {
+            "Angle": "30",
+            "CamId": "5d8cdcf0766c880017188972",
+            "Disctrict": null,
+            "DisplayName": "Nút giao Lê Đại Hành 1 (Bình Thới)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.651834845543,10.7688034952946]}",
+            "PTZ": "False",
+            "Title": "TTH 167"
+        },
+        {
+            "Angle": "240",
+            "CamId": "58af9a07bd82540010390c3b",
+            "Disctrict": "Quận 1",
+            "DisplayName": "Tôn Đức Thắng - Lê Duẩn",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.703263521194,10.7852927046947]}",
+            "PTZ": "False",
+            "Title": "TTH 36.3"
+        },
+        {
+            "Angle": "15",
+            "CamId": "5d8cda2e766c88001718895e",
+            "Disctrict": null,
+            "DisplayName": "Phạm Văn Đồng - Kha Vạn Cân (hướng đi Quốc lộ 1)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.74354493618,10.840819218446]}",
+            "PTZ": "False",
+            "Title": "TTH 157"
+        },
+        {
+            "Angle": "300",
+            "CamId": "5d8cd98d766c88001718895a",
+            "Disctrict": null,
+            "DisplayName": "Phạm Văn Đồng - Tô Ngọc Vân (hướng đi Bình Dương)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.751462817192,10.8533952979021]}",
+            "PTZ": "False",
+            "Title": "TTH 155"
+        },
+        {
+            "Angle": "30",
+            "CamId": "56df82d4c062921100c143e0",
+            "Disctrict": "Quận 9",
+            "DisplayName": "Xa Lộ Hà Nội - Tây Hòa 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.760866641998,10.8264933293527]}",
+            "PTZ": "False",
+            "Title": "TTH 33.2"
+        },
+        {
+            "Angle": "270",
+            "CamId": "587ed91db807da0011e33d4e",
+            "Disctrict": "Quận Bình Thạnh",
+            "DisplayName": "Phan Đăng Lưu - Đinh Tiên Hoàng 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.697963476181,10.8024818353159]}",
+            "PTZ": "False",
+            "Title": "TTH 44.5"
+        },
+        {
+            "Angle": "105",
+            "CamId": "58e49e3dd9d6200011e0b9d1",
+            "Disctrict": "Quận 3",
+            "DisplayName": "Nam Kỳ Khởi Nghĩa - Lý Chính Thắng",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.6847884655,10.7886020312638]}",
+            "PTZ": "False",
+            "Title": "TTH 35.1"
+        },
+        {
+            "Angle": "60",
+            "CamId": "5d8cd7fb766c880017188954",
+            "Disctrict": null,
+            "DisplayName": "Phạm Văn Đồng - Đường 20 (hướng đi Sân bay)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.722366213799,10.8291383225836]}",
+            "PTZ": "False",
+            "Title": "TTH 152"
+        },
+        {
+            "Angle": "255",
+            "CamId": "5d8cd8e2766c880017188958",
+            "Disctrict": null,
+            "DisplayName": "Phạm Văn Đồng - Hiệp Bình (hướng đi Sân bay)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.732848286629,10.8374050930507]}",
+            "PTZ": "False",
+            "Title": "TTH 154"
+        },
+        {
+            "Angle": "195",
+            "CamId": "5d8cd9cb766c88001718895c",
+            "Disctrict": null,
+            "DisplayName": "Phạm Văn Đồng - Tô Ngọc Vân (hướng đi Sân bay)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.751317977905,10.8536007677866]}",
+            "PTZ": "False",
+            "Title": "TTH 156"
+        },
+        {
+            "Angle": "270",
+            "CamId": "5d8cd326766c88001718893e",
+            "Disctrict": null,
+            "DisplayName": "Nút giao Cây Gõ 3 (dạ cầu)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.643235683441,10.75418958083]}",
+            "PTZ": "False",
+            "Title": "TTH 141"
+        },
+        {
+            "Angle": "255",
+            "CamId": "5d8cd2a3766c88001718893c",
+            "Disctrict": null,
+            "DisplayName": "Nút giao Cây Gõ 1 (trên cầu)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.642913818359,10.7544425503934]}",
+            "PTZ": "False",
+            "Title": "TTH 140"
+        },
+        {
+            "Angle": "300",
+            "CamId": "58af8b69bd82540010390c28",
+            "Disctrict": "Quận 3",
+            "DisplayName": "Nam Kỳ Khởi Nghĩa - Điện Biên Phủ 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.69091463089,10.7832744191822]}",
+            "PTZ": "False",
+            "Title": "TTH 35.4"
+        },
+        {
+            "Angle": "240",
+            "CamId": "5d8cda6a766c880017188960",
+            "Disctrict": null,
+            "DisplayName": "Phạm Văn Đồng - Kha Vạn Cân (hướng đi Sân bay)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.743823885918,10.8411932946322]}",
+            "PTZ": "False",
+            "Title": "TTH 158"
+        },
+        {
+            "Angle": "0",
+            "CamId": "587475abb807da0011e33cea",
+            "Disctrict": "Quận Tân Bình",
+            "DisplayName": "Trường Sơn - Cửu Long",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.664789915085,10.8091738427151]}",
+            "PTZ": "False",
+            "Title": "TTH 29.3"
+        },
+        {
+            "Angle": null,
+            "CamId": "5875d4f8b807da0011e33d1a",
+            "Disctrict": "Quận 8",
+            "DisplayName": "Tạ Quang Bửu - Phạm Hùng 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.670937538147,10.7372717600591]}",
+            "PTZ": "False",
+            "Title": "TTH 42.4"
+        },
+        {
+            "Angle": "30",
+            "CamId": "5a60604f8576340017d0660b",
+            "Disctrict": null,
+            "DisplayName": "Nguyễn Thái Sơn - Nguyễn Văn Nghi 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.686376333237,10.8243172516762]}",
+            "PTZ": "False",
+            "Title": "TTH 24.5"
+        },
+        {
+            "Angle": "315",
+            "CamId": "5b0b7d240e517b00119fd809",
+            "Disctrict": null,
+            "DisplayName": "Hương Lộ 2 (Số 878)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.59831404686,10.7672172373829]}",
+            "PTZ": "False",
+            "Title": "TTH 104.4"
+        },
+        {
+            "Angle": "255",
+            "CamId": "5d9de43b766c880017188cb6",
+            "Disctrict": null,
+            "DisplayName": "Cao tốc LTDG - Đỗ Xuân Hợp 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.778896450996,10.7965537514336]}",
+            "PTZ": "False",
+            "Title": "TTH 1.6"
+        },
+        {
+            "Angle": "255",
+            "CamId": "58d8ec0adc195800111e042b",
+            "Disctrict": null,
+            "DisplayName": "Cao tốc LTDG - Cầu Bà Dạt 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.75607085228,10.793987513509]}",
+            "PTZ": "False",
+            "Title": "TTH 1.3"
+        },
+        {
+            "Angle": "225",
+            "CamId": "58d7bbf2c1e33c00112b3216",
+            "Disctrict": "Huyện Bình Chánh",
+            "DisplayName": "Quốc lộ 1 - Đinh Đức Thiện 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.570794582367,10.6656266937569]}",
+            "PTZ": "False",
+            "Title": "TTH 21.46"
+        },
+        {
+            "Angle": "315",
+            "CamId": "5d8cdd26766c880017188974",
+            "Disctrict": null,
+            "DisplayName": "Nút giao Lê Đại Hành 2 (Lê Đại Hành)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.652623414993,10.7688351149688]}",
+            "PTZ": "False",
+            "Title": "TTH 168"
+        },
+        {
+            "Angle": "270",
+            "CamId": "5d9de3c2766c880017188cb3",
+            "Disctrict": null,
+            "DisplayName": "Cao tốc LTDG - Cầu Bà Dạt 3",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.754863858223,10.7929019935409]}",
+            "PTZ": "False",
+            "Title": "TTH 1.5"
+        },
+        {
+            "Angle": "210",
+            "CamId": "5a6066608576340017d06617",
+            "Disctrict": null,
+            "DisplayName": "Quang Trung - Tân Sơn",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.647216081619,10.839438820585]}",
+            "PTZ": "False",
+            "Title": "TTH 21.85"
+        },
+        {
+            "Angle": "195",
+            "CamId": "5d8cdac3766c880017188962",
+            "Disctrict": null,
+            "DisplayName": "Trường Chinh - Đồng Đen",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.645912528038,10.7970385413523]}",
+            "PTZ": "False",
+            "Title": "TTH 159"
+        },
+        {
+            "Angle": null,
+            "CamId": "5d8cdb9f766c880017188968",
+            "Disctrict": null,
+            "DisplayName": "Hoàng Văn Thụ - Trần Huy Liệu",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.677471399307,10.7993728992472]}",
+            "PTZ": "False",
+            "Title": "TTH 162"
+        },
+        {
+            "Angle": "120",
+            "CamId": "56df8198c062921100c143dd",
+            "Disctrict": "Quận Thủ Đức",
+            "DisplayName": "Nút giao Thủ Đức (Võ Văn Ngân)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.773784160614,10.8492753334826]}",
+            "PTZ": "False",
+            "Title": "TTH 32.3"
+        },
+        {
+            "Angle": "255",
+            "CamId": "56df8159c062921100c143dc",
+            "Disctrict": "Quận 9",
+            "DisplayName": "Nút giao Thủ Đức (Lê Văn Việt)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.774283051491,10.8490751291612]}",
+            "PTZ": "False",
+            "Title": "TTH 32.1"
+        },
+        {
+            "Angle": "240",
+            "CamId": "586e266ef9fab7001111b0b0",
+            "Disctrict": "Quận Tân Bình",
+            "DisplayName": "Trường Chinh - Phạm Văn Bạch 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.633150577545,10.8140847327392]}",
+            "PTZ": "False",
+            "Title": "TTH 28.5"
+        },
+        {
+            "Angle": "105",
+            "CamId": "58e49ff8d9d6200011e0b9d4",
+            "Disctrict": "Quận 3",
+            "DisplayName": "Nam Kỳ Khởi Nghĩa - Trần Quốc Toản",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.687223911285,10.7863150164711]}",
+            "PTZ": "False",
+            "Title": "TTH 35.2"
+        },
+        {
+            "Angle": "60",
+            "CamId": "587479b1b807da0011e33cf9",
+            "Disctrict": "Quận Tân Bình",
+            "DisplayName": "Trường Chinh - Tây Thạnh 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.628301143646,10.8189533898328]}",
+            "PTZ": "False",
+            "Title": "TTH 28.8"
+        },
+        {
+            "Angle": "90",
+            "CamId": "5d8cdb0a766c880017188964",
+            "Disctrict": null,
+            "DisplayName": "Trường Chinh - Xuân Hồng",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.651657819748,10.7937134991298]}",
+            "PTZ": "False",
+            "Title": "TTH 160"
+        },
+        {
+            "Angle": "240",
+            "CamId": "56df8544c062921100c143e6",
+            "Disctrict": "Quận Tân Bình",
+            "DisplayName": "Trường Sơn - Ga Quốc Tế",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.665363907814,10.8136315853096]}",
+            "PTZ": "False",
+            "Title": "TTH 29.1"
+        },
+        {
+            "Angle": "255",
+            "CamId": "56f8e796025e9511002786cf",
+            "Disctrict": "Quận 2",
+            "DisplayName": "Đường hầm - Trạm Thu Phí",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.717844009399,10.7715175052402]}",
+            "PTZ": "False",
+            "Title": "TTH 59"
+        },
+        {
+            "Angle": "165",
+            "CamId": "58afea5dbd82540010390c4d",
+            "Disctrict": "Huyện Bình Chánh",
+            "DisplayName": "Quốc lộ 1 - Bùi Thanh Khiết 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.580477356911,10.6741931544789]}",
+            "PTZ": "False",
+            "Title": "TTH 21.43"
+        },
+        {
+            "Angle": "330",
+            "CamId": "589b3705b3bf7600110283bd",
+            "Disctrict": "Quận 12",
+            "DisplayName": "QL 22 - Nguyễn Ảnh Thủ 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.607385277748,10.8551338847726]}",
+            "PTZ": "False",
+            "Title": "TTH 47.1"
+        },
+        {
+            "Angle": "60",
+            "CamId": "5d9ddf0f766c880017188c9e",
+            "Disctrict": null,
+            "DisplayName": "Nút giao Hàng Xanh 6 (Cầu Điện Biên Phủ - Hàng Xanh)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.709132194519,10.8007429428369]}",
+            "PTZ": "False",
+            "Title": "TTH 174"
+        },
+        {
+            "Angle": "180",
+            "CamId": "5d8cd3b7766c880017188942",
+            "Disctrict": null,
+            "DisplayName": "Lê Hồng Phong - Nguyễn Trãi",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.678184866905,10.7573411448313]}",
+            "PTZ": "False",
+            "Title": "TTH 143"
+        },
+        {
+            "Angle": "75",
+            "CamId": "5d8cdc9d766c880017188970",
+            "Disctrict": null,
+            "DisplayName": "Lạc Long Quân - Âu Cơ",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.647881269455,10.7747690150491]}",
+            "PTZ": "False",
+            "Title": "TTH 166"
+        },
+        {
+            "Angle": "300",
+            "CamId": "5a8257e25058170011f6eacd",
+            "Disctrict": null,
+            "DisplayName": "Hoàng Hữu Nam - Đường D400",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.814097762108,10.8700853140978]}",
+            "PTZ": "False",
+            "Title": "TTH 111"
+        },
+        {
+            "Angle": "45",
+            "CamId": "58aff01fbd82540010390c50",
+            "Disctrict": "Huyện Bình Chánh",
+            "DisplayName": "Quốc lộ 1 - Bùi Thanh Khiết 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.58026278019,10.6737028958529]}",
+            "PTZ": "False",
+            "Title": "TTH 21.44"
+        },
+        {
+            "Angle": "345",
+            "CamId": "58c2717ed56e930010a39ac0",
+            "Disctrict": "Quận 8",
+            "DisplayName": "Quốc Lộ 50 - Cầu Nhị Thiên Đường 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.656062516536,10.7418073259385]}",
+            "PTZ": "False",
+            "Title": "TTH 42.6"
+        },
+        {
+            "Angle": "315",
+            "CamId": "589b3ceeb3bf7600110283c3",
+            "Disctrict": "Huyện Hóc Môn",
+            "DisplayName": "QL 22 - Nguyễn Văn Bứa 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.587172150612,10.8837348196645]}",
+            "PTZ": "False",
+            "Title": "TTH 47.3"
+        },
+        {
+            "Angle": "330",
+            "CamId": "5d8cd614766c88001718894a",
+            "Disctrict": null,
+            "DisplayName": "Lê Quang Định - Nơ Trang Long",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.69519007206,10.8081937627675]}",
+            "PTZ": "False",
+            "Title": "TTH 147"
+        },
+        {
+            "Angle": "180",
+            "CamId": "5d8cd49f766c880017188944",
+            "Disctrict": null,
+            "DisplayName": "Nguyễn Tri Phương - Nguyễn Trãi",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.669499874115,10.7547007899372]}",
+            "PTZ": "False",
+            "Title": "TTH 144"
+        },
+        {
+            "Angle": null,
+            "CamId": "5a6061fd8576340017d06613",
+            "Disctrict": null,
+            "DisplayName": "Quang Trung - Trưng Nữ Vương",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.596522331238,10.8885285926454]}",
+            "PTZ": "False",
+            "Title": "TTH 21.83"
+        },
+        {
+            "Angle": "180",
+            "CamId": "56f11afc3ac17b11001c504e",
+            "Disctrict": "Quận Tân Bình",
+            "DisplayName": "Trường Sơn - Phan Đình Giót",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.664215922356,10.8048741133609]}",
+            "PTZ": "False",
+            "Title": "TTH 31"
+        },
+        {
+            "Angle": "300",
+            "CamId": "587478d8b807da0011e33cf3",
+            "Disctrict": "Quận Tân Bình",
+            "DisplayName": "Nút giao Bảy Hiền 1 (Cách Mạng Tháng Tám)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.653594374657,10.7928387592472]}",
+            "PTZ": "False",
+            "Title": "TTH 28.1"
+        },
+        {
+            "Angle": "60",
+            "CamId": "58ad6961bd82540010390be5",
+            "Disctrict": "Quận Phú Nhuận",
+            "DisplayName": "Nút giao Phú Nhuận 1 (Phan Đình Phùng)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.680378913879,10.7990461956223]}",
+            "PTZ": "False",
+            "Title": "TTH 34.9"
+        },
+        {
+            "Angle": "240",
+            "CamId": "58d7b3e8c1e33c00112b3207",
+            "Disctrict": "Huyện Bình Chánh",
+            "DisplayName": "Quốc lộ 1 - Nguyễn Văn Linh",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.595363616943,10.6901498501196]}",
+            "PTZ": "False",
+            "Title": "TTH 21.47"
+        },
+        {
+            "Angle": "345",
+            "CamId": "5875cef0b807da0011e33d14",
+            "Disctrict": "Quận Tân Bình",
+            "DisplayName": "Trường Chinh - Phạm Văn Bạch 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.632796525955,10.8134629721378]}",
+            "PTZ": "False",
+            "Title": "TTH 28.6"
+        },
+        {
+            "Angle": "150",
+            "CamId": "589b3f7db3bf7600110283c6",
+            "Disctrict": "Huyện Hóc Môn",
+            "DisplayName": "QL 22 - Nguyễn Văn Bứa 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.586925387383,10.8841088420888]}",
+            "PTZ": "False",
+            "Title": "TTH 47.4"
+        },
+        {
+            "Angle": null,
+            "CamId": "5a6061868576340017d06611",
+            "Disctrict": null,
+            "DisplayName": "Quang Trung - Bà Triệu",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.596280932426,10.8883494860312]}",
+            "PTZ": "False",
+            "Title": "TTH 21.82"
+        },
+        {
+            "Angle": "45",
+            "CamId": "5b6006dafd4edb0019c7db29",
+            "Disctrict": null,
+            "DisplayName": "Phạm Thế Hiển - Dạ Nam",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.683168411255,10.7489614956985]}",
+            "PTZ": null,
+            "Title": "TTH 103.3"
+        },
+        {
+            "Angle": "195",
+            "CamId": "58af994abd82540010390c37",
+            "Disctrict": "Quận 1",
+            "DisplayName": "Nguyễn Hữu Cảnh - Tôn Đức Thắng",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.706235408783,10.7826315159924]}",
+            "PTZ": "False",
+            "Title": "TTH 36.1"
+        },
+        {
+            "Angle": "75",
+            "CamId": "5d8cd767766c880017188950",
+            "Disctrict": null,
+            "DisplayName": "Phạm Văn Đồng - Nguyễn Xí (hướng đi Sân bay)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.702968478203,10.8230474266509]}",
+            "PTZ": "False",
+            "Title": "TTH 150"
+        },
+        {
+            "Angle": "75",
+            "CamId": "5b5995a3fd4edb0019c7d9ab",
+            "Disctrict": null,
+            "DisplayName": "Võ Văn Kiệt - Cầu Chà Và 2 (trên cầu)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.660348176956,10.7489404145267]}",
+            "PTZ": "False",
+            "Title": "TTH 15.2"
+        },
+        {
+            "Angle": "180",
+            "CamId": "5d8cdc57766c88001718896e",
+            "Disctrict": null,
+            "DisplayName": "Lý Thường Kiệt - Lạc Long Quân",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.652473211288,10.7904463853615]}",
+            "PTZ": "False",
+            "Title": "TTH 165"
+        },
+        {
+            "Angle": null,
+            "CamId": "5a10c79f02eb490011a0b0dd",
+            "Disctrict": null,
+            "DisplayName": "Mai Chí Thọ - Đường Ven Hồ Trung Tâm (C6)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.716717481613,10.7713172490313]}",
+            "PTZ": "False",
+            "Title": "TTH 59.1"
+        },
+        {
+            "Angle": "210",
+            "CamId": "5a6065c58576340017d06615",
+            "Disctrict": null,
+            "DisplayName": "Tô Ngọc Vân - TX25",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.677986383438,10.8797100979598]}",
+            "PTZ": "False",
+            "Title": "TTH 21.84"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515ad10",
+            "Disctrict": null,
+            "DisplayName": "Cách Mạng Tháng Tám - Nguyễn Thị Minh Khai",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.689579,10.773652]}",
+            "PTZ": "True",
+            "Title": "ITS 7.7"
+        },
+        {
+            "Angle": "285",
+            "CamId": "586e25e1f9fab7001111b0ae",
+            "Disctrict": "Quận Tân Bình",
+            "DisplayName": "Trường Chinh - Tân Kỳ Tân Quý",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.635918617249,10.8037728247342]}",
+            "PTZ": "False",
+            "Title": "TTH 28.4"
+        },
+        {
+            "Angle": "15",
+            "CamId": "587ee0ecb807da0011e33d50",
+            "Disctrict": "Quận Bình Thạnh",
+            "DisplayName": "Phan Đăng Lưu - Đinh Tiên Hoàng 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.696482896805,10.8019970541825]}",
+            "PTZ": "False",
+            "Title": "TTH 44.4"
+        },
+        {
+            "Angle": "240",
+            "CamId": "589b39d9b3bf7600110283c1",
+            "Disctrict": "Quận 12",
+            "DisplayName": "QL 22 - Nguyễn Ảnh Thủ 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.607159972191,10.8554657956616]}",
+            "PTZ": "False",
+            "Title": "TTH 47.2"
+        },
+        {
+            "Angle": "195",
+            "CamId": "5d8cd372766c880017188940",
+            "Disctrict": null,
+            "DisplayName": "Nút giao Cây Gõ 2 (Minh Phụng)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.643267869949,10.7550275416962]}",
+            "PTZ": "False",
+            "Title": "TTH 142"
+        },
+        {
+            "Angle": null,
+            "CamId": "5a6060e08576340017d0660f",
+            "Disctrict": null,
+            "DisplayName": "Nguyễn Thái Sơn - Phan Văn Trị 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.689149737358,10.8262720340397]}",
+            "PTZ": "False",
+            "Title": "TTH 24.7"
+        },
+        {
+            "Angle": null,
+            "CamId": "5d8cdb4b766c880017188966",
+            "Disctrict": null,
+            "DisplayName": "Hoàng Văn Thụ - Út Tịch",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.658374071121,10.7980555437486]}",
+            "PTZ": "False",
+            "Title": "TTH 161"
+        },
+        {
+            "Angle": "270",
+            "CamId": "58ad7291bd82540010390bf9",
+            "Disctrict": "Quận Bình Thạnh",
+            "DisplayName": "Phan Đăng Lưu - Nguyễn Văn Đậu",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.687197089195,10.8038413260585]}",
+            "PTZ": "False",
+            "Title": "TTH 44.3"
+        },
+        {
+            "Angle": "150",
+            "CamId": "587ef859b807da0011e33d5b",
+            "Disctrict": "Quận Bình Thạnh",
+            "DisplayName": "Phạm Văn Đồng - Lê Quang Định 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.689868569374,10.8200546227367]}",
+            "PTZ": "False",
+            "Title": "TTH 45.1"
+        },
+        {
+            "Angle": "240",
+            "CamId": "5d8cd886766c880017188956",
+            "Disctrict": null,
+            "DisplayName": "Phạm Văn Đồng - Hiệp Bình (hướng đi Thủ Đức)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.732848286629,10.8372522994913]}",
+            "PTZ": "False",
+            "Title": "TTH 153"
+        },
+        {
+            "Angle": "90",
+            "CamId": "5d9dde1f766c880017188c98",
+            "Disctrict": null,
+            "DisplayName": "Nút giao Hàng Xanh 3 (Cầu Thị Nghè - Hàng Xanh)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.711294054985,10.8001422321862]}",
+            "PTZ": "False",
+            "Title": "TTH 171"
+        },
+        {
+            "Angle": "0",
+            "CamId": "5b6c15b8ca0577001163fe39",
+            "Disctrict": null,
+            "DisplayName": "Nguyễn Hữu Cảnh 3 (Hầm chui)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.718181967735,10.7911261587324]}",
+            "PTZ": "False",
+            "Title": "TTH 135.2"
+        },
+        {
+            "Angle": "135",
+            "CamId": "5b6005b6fd4edb0019c7db25",
+            "Disctrict": null,
+            "DisplayName": "Trần Hưng Đạo - Nguyễn Biểu",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.683527827263,10.7561079280569]}",
+            "PTZ": "False",
+            "Title": "TTH 103.2"
+        },
+        {
+            "Angle": null,
+            "CamId": "5d8cdbdc766c88001718896a",
+            "Disctrict": null,
+            "DisplayName": "Hoàng Văn Thụ - Cộng Hòa",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.660782694817,10.8006744408059]}",
+            "PTZ": "False",
+            "Title": "TTH 163"
+        },
+        {
+            "Angle": "285",
+            "CamId": "58d7b5a7c1e33c00112b320a",
+            "Disctrict": "Huyện Bình Chánh",
+            "DisplayName": "Nút giao Chợ Đệm 1 (CT Trung Lương - Bùi Thanh Khiết)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.576287746429,10.6859643956044]}",
+            "PTZ": "False",
+            "Title": "TTH 21.48"
+        },
+        {
+            "Angle": "60",
+            "CamId": "58afdbaebd82540010390c48",
+            "Disctrict": "Huyện Bình Chánh",
+            "DisplayName": "Quốc lộ 1 - Cao tốc Trung Lương",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.592531204224,10.689411864849]}",
+            "PTZ": "False",
+            "Title": "TTH 21.42"
+        },
+        {
+            "Angle": "105",
+            "CamId": "586e2492f9fab7001111b0ab",
+            "Disctrict": "Quận Phú Nhuận",
+            "DisplayName": "Nguyễn Văn Trỗi - Nguyễn Đình Chính",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.675336360931,10.7955947082032]}",
+            "PTZ": "False",
+            "Title": "TTH 34.2"
+        },
+        {
+            "Angle": "345",
+            "CamId": "587c8c20b807da0011e33d47",
+            "Disctrict": "Quận Phú Nhuận",
+            "DisplayName": "Hoàng Văn Thụ - Hồ Văn Huê",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.674934029579,10.7994466709843]}",
+            "PTZ": "False",
+            "Title": "TTH 34.3"
+        },
+        {
+            "Angle": "315",
+            "CamId": "5a6060a88576340017d0660d",
+            "Disctrict": null,
+            "DisplayName": "Nguyễn Thái Sơn - Phan Văn Trị  1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.689493060112,10.8261245037402]}",
+            "PTZ": "False",
+            "Title": "TTH 24.6"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515ad1c",
+            "Disctrict": null,
+            "DisplayName": "Hoàng Diệu - Nguyễn Tất Thành",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.706981,10.765317]}",
+            "PTZ": "True",
+            "Title": "ITS 9.2"
+        },
+        {
+            "Angle": "255",
+            "CamId": "56f8e7c9025e9511002786d1",
+            "Disctrict": "Quận 2",
+            "DisplayName": "Đường hầm - Đầu Quận 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.714040637016,10.7706637804763]}",
+            "PTZ": "False",
+            "Title": "TTH 60"
+        },
+        {
+            "Angle": "270",
+            "CamId": "587476e3b807da0011e33cee",
+            "Disctrict": "Quận Tân Bình",
+            "DisplayName": "Cộng Hòa - Út Tịch 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.657853722572,10.8010380283306]}",
+            "PTZ": "False",
+            "Title": "TTH 38.4"
+        },
+        {
+            "Angle": "150",
+            "CamId": "5d8cd253766c88001718893a",
+            "Disctrict": null,
+            "DisplayName": "Nguyễn Tri Phương - Hùng Vương",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.669279932976,10.7576520833075]}",
+            "PTZ": "False",
+            "Title": "TTH 139"
+        },
+        {
+            "Angle": "45",
+            "CamId": "59c8adf202eb490011a0a352",
+            "Disctrict": null,
+            "DisplayName": "Phan Văn Hớn -> An Sương",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.611757278442,10.8393755961029]}",
+            "PTZ": "False",
+            "Title": "TTH-VDS 018"
+        },
+        {
+            "Angle": "75",
+            "CamId": "5d9de49d766c880017188cb9",
+            "Disctrict": null,
+            "DisplayName": "Cao tốc LTDG - Đỗ Xuân Hợp 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.778848171234,10.7961796195486]}",
+            "PTZ": "False",
+            "Title": "TTH 1.7"
+        },
+        {
+            "Angle": "180",
+            "CamId": "587ee7d7b807da0011e33d55",
+            "Disctrict": "Quận Bình Thạnh",
+            "DisplayName": "Phan Đăng Lưu - Nơ Trang Long",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.694852113724,10.8031879281753]}",
+            "PTZ": "False",
+            "Title": "TTH 44.2"
+        },
+        {
+            "Angle": "120",
+            "CamId": "58af99abbd82540010390c39",
+            "Disctrict": "Quận 1",
+            "DisplayName": "Nguyễn Hữu Cảnh - Nguyễn Bỉnh Khiêm",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.707914471626,10.7846234574745]}",
+            "PTZ": "False",
+            "Title": "TTH 36.2"
+        },
+        {
+            "Angle": "45",
+            "CamId": "587c8661b807da0011e33d43",
+            "Disctrict": "Quận Tân Bình",
+            "DisplayName": "Lê Văn Sỹ - Hoàng Văn Thụ",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.660519838333,10.7999683420367]}",
+            "PTZ": "False",
+            "Title": "TTH 38.6"
+        },
+        {
+            "Angle": "255",
+            "CamId": "585b284ac3f96200127dc500",
+            "Disctrict": "Quận 7",
+            "DisplayName": "Huỳnh Tấn Phát - Lưu Trọng Lư 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.727795004845,10.7545321437295]}",
+            "PTZ": "False",
+            "Title": "TTH 37.1"
+        },
+        {
+            "Angle": null,
+            "CamId": "5d9ddf49766c880017188ca0",
+            "Disctrict": null,
+            "DisplayName": "Nút giao Hàng Xanh 7 (Hàng Xanh - Cầu Văn Thánh)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.712324023247,10.8012277259948]}",
+            "PTZ": "False",
+            "Title": "TTH 175"
+        },
+        {
+            "Angle": "120",
+            "CamId": "5d8cd4ee766c880017188946",
+            "Disctrict": null,
+            "DisplayName": "Lê Văn Sỹ - Huỳnh Văn Bánh",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.671452522278,10.7918902432446]}",
+            "PTZ": "False",
+            "Title": "TTH 145"
+        },
+        {
+            "Angle": "300",
+            "CamId": "56df8274c062921100c143df",
+            "Disctrict": "Quận 9",
+            "DisplayName": "Xa Lộ Hà Nội - Tây Hòa 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.761032938957,10.8264933293527]}",
+            "PTZ": "False",
+            "Title": "TTH 33.1"
+        },
+        {
+            "Angle": "60",
+            "CamId": "56de42f611f398ec0c48128a",
+            "Disctrict": "Quận 1",
+            "DisplayName": "Võ Văn Kiệt - Trần Đình Xu 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.692545413971,10.7587798913611]}",
+            "PTZ": "False",
+            "Title": "TTH 8.2"
+        },
+        {
+            "Angle": "135",
+            "CamId": "589ad89eb3bf7600110283ac",
+            "Disctrict": "Quận 12",
+            "DisplayName": "Tô Ký (Tỉnh lộ 15) - Hẻm 146",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.633611917496,10.8486167661312]}",
+            "PTZ": "False",
+            "Title": "TTH 46.1"
+        },
+        {
+            "Angle": "45",
+            "CamId": "58af8d68bd82540010390c2e",
+            "Disctrict": "Quận 3",
+            "DisplayName": "Nam Kỳ Khởi Nghĩa - Điện Biên Phủ 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.690700054169,10.7833376554873]}",
+            "PTZ": "False",
+            "Title": "TTH 35.5"
+        },
+        {
+            "Angle": "315",
+            "CamId": "589b4379b3bf7600110283c9",
+            "Disctrict": "Huyện Củ Chi",
+            "DisplayName": "QL 22 - Giáp Hải",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.481675505638,10.9713380309812]}",
+            "PTZ": "False",
+            "Title": "TTH 47.5"
+        },
+        {
+            "Angle": "255",
+            "CamId": "5d8cd7bb766c880017188952",
+            "Disctrict": null,
+            "DisplayName": "Phạm Văn Đồng - Đường 20 (hướng đi Thủ Đức)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.722747087479,10.8289275670072]}",
+            "PTZ": "False",
+            "Title": "TTH 151"
+        },
+        {
+            "Angle": "345",
+            "CamId": "5d9ddec9766c880017188c9c",
+            "Disctrict": null,
+            "DisplayName": "Nút giao Hàng Xanh 5 (Hàng Xanh - Bạch Đằng)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.711503267288,10.8021551350728]}",
+            "PTZ": "False",
+            "Title": "TTH 173"
+        },
+        {
+            "Angle": "195",
+            "CamId": "5d8cd1f9766c880017188938",
+            "Disctrict": null,
+            "DisplayName": "Nguyễn Tri Phương - Trần Phú",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.669569611549,10.7535782368426]}",
+            "PTZ": "False",
+            "Title": "TTH 138"
+        },
+        {
+            "Angle": "225",
+            "CamId": "587ee2aeb807da0011e33d52",
+            "Disctrict": "Quận Phú Nhuận",
+            "DisplayName": "Phan Đăng Lưu - Phan Xích Long",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.683232784271,10.8020392090947]}",
+            "PTZ": "False",
+            "Title": "TTH 44.1"
+        },
+        {
+            "Angle": "255",
+            "CamId": "56de42f611f398ec0c481299",
+            "Disctrict": "Quận Bình Tân",
+            "DisplayName": "Võ Văn Kiệt - An Dương Vương 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.620351076126,10.7265671915496]}",
+            "PTZ": "False",
+            "Title": "TTH 18.2"
+        },
+        {
+            "Angle": null,
+            "CamId": "58df5016dc195800111e04bd",
+            "Disctrict": "Quận Tân Bình",
+            "DisplayName": "Yên Thế - Hồng Hà",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.668566465378,10.8133259738659]}",
+            "PTZ": "False",
+            "Title": "TTH 26.6"
+        },
+        {
+            "Angle": "315",
+            "CamId": "5b600777fd4edb0019c7db2c",
+            "Disctrict": null,
+            "DisplayName": "Nguyễn Thị Tần - Đặng Chất",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.685582399368,10.7475385132984]}",
+            "PTZ": "False",
+            "Title": "TTH 103.4"
+        },
+        {
+            "Angle": "15",
+            "CamId": "5d8cdc1d766c88001718896c",
+            "Disctrict": null,
+            "DisplayName": "Trường Sơn - Hậu Giang",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.664478778839,10.8076721060064]}",
+            "PTZ": "False",
+            "Title": "TTH 164"
+        },
+        {
+            "Angle": null,
+            "CamId": "5b8b2323ca057700116405d0",
+            "Disctrict": null,
+            "DisplayName": "Trường Sơn - Ga Quốc Nội 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.664902567863,10.8129465937096]}",
+            "PTZ": "False",
+            "Title": "TTH 29.4"
+        },
+        {
+            "Angle": "210",
+            "CamId": "58747923b807da0011e33cf5",
+            "Disctrict": "Quận Tân Bình",
+            "DisplayName": "Nút giao Bảy Hiền 2 (Hoàng Văn Thụ)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.653615832329,10.7931970867358]}",
+            "PTZ": "False",
+            "Title": "TTH 28.2"
+        },
+        {
+            "Angle": "90",
+            "CamId": "58b571c817139d0010f35d5d",
+            "Disctrict": "Quận Phú Nhuận",
+            "DisplayName": "Nguyễn Văn Trỗi - Trần Huy Liệu",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.677948832512,10.794472307568]}",
+            "PTZ": "False",
+            "Title": "TTH 34.11"
+        },
+        {
+            "Angle": "240",
+            "CamId": "587ef5dfb807da0011e33d59",
+            "Disctrict": "Quận Phú Nhuận",
+            "DisplayName": "Nguyễn Văn Trỗi - Huỳnh Văn Bánh",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.679853200912,10.7928914544929]}",
+            "PTZ": "False",
+            "Title": "TTH 34.8"
+        },
+        {
+            "Angle": "135",
+            "CamId": "5a8241105058170011f6eaa6",
+            "Disctrict": null,
+            "DisplayName": "Đinh Tiên Hoàng - Võ Thị Sáu 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.695785522461,10.7919218604929]}",
+            "PTZ": "False",
+            "Title": "TTH 102.2"
+        },
+        {
+            "Angle": "345",
+            "CamId": "5b632a79fd4edb0019c7dc0f",
+            "Disctrict": null,
+            "DisplayName": "Nguyễn Tri Phương - Trần Hưng Đạo",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.669510602951,10.7524240581789]}",
+            "PTZ": "False",
+            "Title": "TTH 133"
+        },
+        {
+            "Angle": "240",
+            "CamId": "5b728aafca0577001163ff7e",
+            "Disctrict": null,
+            "DisplayName": "Hồng Bàng - Châu Văn Liêm",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.658910512924,10.7548430851016]}",
+            "PTZ": "False",
+            "Title": "TTH 136"
+        },
+        {
+            "Angle": "330",
+            "CamId": "5b632b60fd4edb0019c7dc12",
+            "Disctrict": null,
+            "DisplayName": "Hồng Bàng - Ngô Quyền 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.666420698166,10.7557179353779]}",
+            "PTZ": "False",
+            "Title": "TTH 134"
+        },
+        {
+            "Angle": "255",
+            "CamId": "5b6329fdfd4edb0019c7dc0b",
+            "Disctrict": null,
+            "DisplayName": "Nguyễn Trãi - Nguyễn Văn Cừ",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.684375405312,10.7596494601112]}",
+            "PTZ": "False",
+            "Title": "TTH 132"
+        },
+        {
+            "Angle": "315",
+            "CamId": "58d7c2e6c1e33c00112b321e",
+            "Disctrict": "Quận 12",
+            "DisplayName": "Trường Chinh - Phan Văn Hớn 1 (Q12-HM)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.625425815582,10.8269833398213]}",
+            "PTZ": "False",
+            "Title": "TTH 28.9"
+        },
+        {
+            "Angle": "30",
+            "CamId": "58df4c2bdc195800111e04b7",
+            "Disctrict": "Quận Tân Bình",
+            "DisplayName": "Thăng Long - Phan Thúc Duyện",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.660938262939,10.8044525679523]}",
+            "PTZ": "False",
+            "Title": "TTH 26.3"
+        },
+        {
+            "Angle": "225",
+            "CamId": "597bf277faa7ea0011c7c29f",
+            "Disctrict": null,
+            "DisplayName": "Cầu Phú Hữu 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.792302131653,10.8208924000834]}",
+            "PTZ": "False",
+            "Title": "TTH 99"
+        },
+        {
+            "Angle": "150",
+            "CamId": "5ad068b198d8fc001102e278",
+            "Disctrict": null,
+            "DisplayName": "Quốc lộ 50 - Cầu Ông Thìn (1)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.654586791992,10.6524259645754]}",
+            "PTZ": "False",
+            "Title": "TTH 118.1"
+        },
+        {
+            "Angle": "120",
+            "CamId": "5a824dc05058170011f6eab2",
+            "Disctrict": null,
+            "DisplayName": "Quang Trung - Lê Văn Thọ (1)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.658180952072,10.8366042431825]}",
+            "PTZ": "False",
+            "Title": "TTH 115.1"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515ad1a",
+            "Disctrict": null,
+            "DisplayName": "Pasteur - Lê Duẩn",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.697417,10.779127]}",
+            "PTZ": "True",
+            "Title": "ITS 8.51"
+        },
+        {
+            "Angle": "150",
+            "CamId": "5ad064b498d8fc001102e26f",
+            "Disctrict": null,
+            "DisplayName": "Lã Xuân Oai - Cầu Tăng Long (2)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.805992126465,10.827699912827]}",
+            "PTZ": "False",
+            "Title": "TTH 125.2"
+        },
+        {
+            "Angle": "315",
+            "CamId": "5ad0644698d8fc001102e26b",
+            "Disctrict": null,
+            "DisplayName": "Lã Xuân Oai - Cầu Tăng Long (1)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.806828975677,10.82640375746]}",
+            "PTZ": "False",
+            "Title": "TTH 125.1"
+        },
+        {
+            "Angle": "195",
+            "CamId": "591c6833a6bfb500119400a3",
+            "Disctrict": "Huyện Nhà Bè",
+            "DisplayName": "Cầu Rạch Đĩa (LA)",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.697738170624,10.7239898163825]}",
+            "PTZ": "False",
+            "Title": "TTH 48.8"
+        },
+        {
+            "Angle": null,
+            "CamId": "5deb576d1dc17d7c5515acf2",
+            "Disctrict": null,
+            "DisplayName": "Điện Biên Phủ - Cách Mạng Tháng Tám",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.683694124222,10.7765712954739]}",
+            "PTZ": "True",
+            "Title": "ITS 1.1"
+        },
+        {
+            "Angle": "315",
+            "CamId": "58b5752e17139d0010f35d5f",
+            "Disctrict": "Quận 1",
+            "DisplayName": "Nam Kỳ Khởi Nghĩa -Nguyễn Thị Minh Khai 2",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.695173978806,10.7794696770349]}",
+            "PTZ": "False",
+            "Title": "TTH 35.7"
+        },
+        {
+            "Angle": "90",
+            "CamId": "58744f1fb807da0011e33cbd",
+            "Disctrict": "Quận 8",
+            "DisplayName": "Hưng Phú - Chánh Hưng 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.668984889984,10.7459679545654]}",
+            "PTZ": "False",
+            "Title": "TTH 43.1"
+        },
+        {
+            "Angle": "30",
+            "CamId": "58744e3eb807da0011e33cb7",
+            "Disctrict": "Quận 8",
+            "DisplayName": "Dương Bá Trạc - Tạ Quang Bửu 1",
+            "Location": "{\"type\":\"Point\",\"coordinates\":[106.688919067383,10.7444131987789]}",
+            "PTZ": "False",
+            "Title": "TTH 42.2"
+        }
+    ],
+    "TotalCount": 421
+}
