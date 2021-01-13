@@ -1,9 +1,7 @@
 •	make-label.py
-*Mode = 1
-	Create Label with click or drag the mouse and enter
-*Mode = 2
-	Delete Label with click or drag the mouse and enter
-*Change Mode: click icon
+Create Label with click the mouse and enter
+Delete Label with drag the mouse and enter
+
 
 
 
