@@ -14,7 +14,6 @@ class MakeLabelSegmentation:
         self.max_radius = 50
         self.use_prev_mask = False
         self.cur_mouse = (0,0)
-        self.draw_color = 0
         self.labeled = labeled
         self.COLOR_ROI = (0,0,255) #red
         self.COLOR_STREET = (0,255,0) #green
@@ -32,10 +31,10 @@ class MakeLabelSegmentation:
         return color
 
     def color2mask(self,color):
-        print(color)
+        #print(color)
         r,c = color.shape[:2]
         mask = np.ones((r,c),np.uint8)
-        mask[np.where((color==self.COLOR_ROI).all(axis=2))] = 0
+        mask[np.where(((color==self.COLOR_ROI)|(color==(0,0,0))).all(axis=2))] = 0
         mask[np.where((color==self.COLOR_STREET).all(axis=2))] = 1
         mask[np.where((color==self.COLOR_VEHICLE).all(axis=2))] = 2
         return mask
@@ -51,7 +50,7 @@ class MakeLabelSegmentation:
             self.left_mouse_down = True
         elif event == cv2.EVENT_LBUTTONUP:
             self.left_mouse_down = False
-        if self.left_mouse_down and self.mask.size>0 and self.img.size>0 and self.draw_color != 1:
+        if self.left_mouse_down and self.mask.size>0 and self.img.size>0:
             if flags & cv2.EVENT_FLAG_SHIFTKEY:
                 cv2.circle(self.img, (x,y), self.radius, self.COLOR_ROI, -1)
                 cv2.circle(self.mask, (x,y), self.radius, 0, -1)
@@ -75,7 +74,7 @@ class MakeLabelSegmentation:
         while True:
             self.radius = cv2.getTrackbarPos('Brush size',self.windownname)
             color = self.mask2color(self.mask)
-            alpha = 0.5 if self.draw_color==0 else (1 if self.draw_color==1 else 0)
+            alpha = 0.5
             show_img = (self.img*alpha + color*(1-alpha)).astype('uint8')
             cv2.circle(show_img, self.cur_mouse, self.radius, (200,200,200), 2)
             cv2.imshow(self.windownname,show_img)
@@ -95,8 +94,6 @@ class MakeLabelSegmentation:
                 # GC_PR_FGD = 3  
                 self.__init_mask()
                 self.img = cv2.imread(self.imgPath)
-            elif key == ord('w'):
-                self.draw_color = (self.draw_color+1)%2
 
         return key
     def start(self):
@@ -108,7 +105,7 @@ class MakeLabelSegmentation:
         print("Left mouse button: select vehicle ")
         print("SHIFT+left mouse button: select ROI")
         print("SHIFT+left mouse button: select Street")
-        print("'r'/SPACE: reset all         'w': change vision")
+        print("'r'/SPACE: reset all")
         print("'p': prev image              'n': next image")
         print("'s'/ENTER: save label        'q'/ESC: exit")
         fimglist = sorted([x for x in os.listdir(img_dir) if '.png' in x or '.jpg' in x])
