@@ -34,9 +34,9 @@ class MakeLabelSegmentation:
         #print(color)
         r,c = color.shape[:2]
         mask = np.ones((r,c),np.uint8)
-        mask[np.where(((color==self.COLOR_ROI)|(color==(0,0,0))).all(axis=2))] = 0
-        mask[np.where((color==self.COLOR_STREET).all(axis=2))] = 1
-        mask[np.where((color==self.COLOR_VEHICLE).all(axis=2))] = 2
+        mask[np.where((((color-self.COLOR_ROI<= (1,1,1))&((color-self.COLOR_ROI>= (0,0,0))))|(color <= (1,1,1))).all(axis=2))] = 0
+        mask[np.where(((color-self.COLOR_STREET<= (1,1,1))&((color-self.COLOR_STREET>= (0,0,0)))).all(axis=2))] = 1
+        mask[np.where(((color-self.COLOR_VEHICLE<= (1,1,1))&((color-self.COLOR_VEHICLE>= (0,0,0)))).all(axis=2))] = 2
         return mask
         
     def on_mouse(self,event,x,y,flags,param):
@@ -116,7 +116,11 @@ class MakeLabelSegmentation:
             self.imgPath = os.path.join(img_dir,fimg)
             print('process %s'%fimg)
             self.img = cv2.imread(self.imgPath)
-            self.mask = self.color2mask(cv2.imread(self.maskPath)) if os.path.isfile(self.maskPath) else self.color2mask(self.img)
+            if not os.path.isfile(self.maskPath):
+                self.mask = self.color2mask(self.img)
+            else: 
+                i+=1
+                continue
             key = self.process()
             if key == ord('s') or key == 10 or key == 13:
                 saveimg = os.path.join(save_dir, fimg)
