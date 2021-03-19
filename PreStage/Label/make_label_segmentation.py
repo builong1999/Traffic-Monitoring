@@ -3,7 +3,7 @@ import numpy as np
 import sys
 import os
 class MakeLabelSegmentation:
-    def __init__(self,src_path='',result_path='',labeled = True):
+    def __init__(self, src_path='', result_path='', use_labeled = True, scale = 1):
         if not os.path.exists(result_path):
             os.makedirs(result_path)
             print('%s not exists, create '%result_path)
@@ -14,7 +14,8 @@ class MakeLabelSegmentation:
         self.max_radius = 50
         self.use_prev_mask = False
         self.cur_mouse = (0,0)
-        self.labeled = labeled
+        self.use_labeled = use_labeled
+        self.scale = scale
         self.COLOR_ROI = (0,0,255) #red
         self.COLOR_STREET = (0,255,0) #green
         self.COLOR_VEHICLE = (255,0,0) #blue
@@ -64,13 +65,7 @@ class MakeLabelSegmentation:
 
     def __init_mask(self):
         self.mask[:] = 1
-        #mask[:10,:] = cv2.GC_PR_BGD
     def process(self):
-        # if os.path.exists(self.maskPath):
-        #     self.mask = self.color2mask(cv2.imread(self.maskPath))
-            #self.bgdModel = np.zeros((1,65),np.float64)
-            #self.fgdModel = np.zeros((1,65),np.float64)
-            #cv2.grabCut(self.img, self.mask, None, self.bgdModel, self.fgdModel, 1, cv2.GC_INIT_WITH_MASK)
         while True:
             self.radius = cv2.getTrackbarPos('Brush size',self.windownname)
             color = self.mask2color(self.mask)
@@ -87,11 +82,6 @@ class MakeLabelSegmentation:
                 cv2.putText(show_img, 'reset...', (10,30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0,255,255),2)
                 cv2.imshow(self.windownname,show_img)
                 cv2.waitKey(1)
-                # mask enum
-                # GC_BGD    = 0,  
-                # GC_FGD    = 1, 
-                # GC_PR_BGD = 2,  
-                # GC_PR_FGD = 3  
                 self.__init_mask()
                 self.img = cv2.imread(self.imgPath)
 
@@ -103,8 +93,8 @@ class MakeLabelSegmentation:
             os.makedirs(save_dir)
             print('%s not exists, create '%save_dir)
         print("Left mouse button: select vehicle ")
-        print("SHIFT+left mouse button: select ROI")
-        print("SHIFT+left mouse button: select Street")
+        print("SHIFT + left mouse button: select ROI")
+        print("CTRL + left mouse button: select Street")
         print("'r'/SPACE: reset all")
         print("'p': prev image              'n': next image")
         print("'s'/ENTER: save label        'q'/ESC: exit")
@@ -116,15 +106,19 @@ class MakeLabelSegmentation:
             self.imgPath = os.path.join(img_dir,fimg)
             print('process %s'%fimg)
             self.img = cv2.imread(self.imgPath)
+            self.img = cv2.resize(self.img, (int(self.img.shape[1] * self.scale), int(self.img.shape[0] * self.scale)), interpolation = cv2.INTER_AREA)
             if not os.path.isfile(self.maskPath):
                 self.mask = self.color2mask(self.img)
-            else: 
-                i+=1
-                continue
+            else:
+                if(self.use_labeled):
+                    self.mask = self.color2mask( cv2.resize(cv2.imread(self.maskPath), (self.img.shape[1], self.img.shape[0]), interpolation = cv2.INTER_AREA))
+                else:
+                    i+=1
+                    continue
             key = self.process()
             if key == ord('s') or key == 10 or key == 13:
-                saveimg = os.path.join(save_dir, fimg)
-                cv2.imwrite(saveimg,self.mask2color(self.mask))
+                saveimg = os.path.join(save_dir, fimg[:-3] + "png")
+                cv2.imwrite(saveimg, cv2.resize(self.mask2color(self.mask),(int(self.img.shape[1] / self.scale), int(self.img.shape[0] / self.scale)), interpolation = cv2.INTER_AREA))
                 print('save label %s.'%saveimg)
                 i += 1
             elif key == ord('p') and i>0:

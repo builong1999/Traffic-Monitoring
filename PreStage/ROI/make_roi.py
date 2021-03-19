@@ -2,15 +2,16 @@ import os
 import cv2
 import numpy as np
 class selectROI():
-    def __init__(self, direc = os.getcwd(), replaceImg = False):
+    def __init__(self, direc = os.getcwd(), replaceImg = False, scale = 1):
         self.get_image_list(direc)
         self.direc = direc
         self.replaceImg = replaceImg
+        self.scale = scale
         self.roiName = 'ROI.jpg'
     #Get all image from direc
     def get_image_list(self, direc):
         os.chdir(direc)
-        self.paths = [item for item in os.listdir() if ".jpg" in os.path.basename(item)]
+        self.paths = [item for item in os.listdir() if ".jpg" in os.path.basename(item) or ".png" in os.path.basename(item) ]
     #Bat su kien click
     def clickPolygonPoints(self, event, x, y, flags, param):
         image_temp = self.refImage.copy()
@@ -45,7 +46,7 @@ class selectROI():
                 thresh, roi = cv2.threshold(roi, thresh=128, maxval=1, type=cv2.THRESH_BINARY)
                 # apply ROI on the original image
                 new_img = img * roi
-                savename = folder + str(path)
+                savename = folder + path[:-3] + "png"
                 cv2.imwrite(savename, new_img)
                 print('ROI ' + savename + ' successfull!')
             print('Done!...')
@@ -58,6 +59,8 @@ class selectROI():
             print('Folder empty!')
             return
         self.refImage = cv2.imread(self.paths[0])
+        self.refImage = cv2.resize(self.refImage, (int(self.refImage.shape[1] * self.scale), int(self.refImage.shape[0] * self.scale)), interpolation = cv2.INTER_AREA)
+
         originalRefImage = self.refImage.copy()
         cv2.namedWindow("refImage")
         self.clickEventsEnabled = True #enable event click
