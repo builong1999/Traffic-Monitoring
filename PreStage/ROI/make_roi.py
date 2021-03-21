@@ -45,9 +45,9 @@ class selectROI():
                 # scale ROI to [0, 1] => binary mask
                 thresh, roi = cv2.threshold(roi, thresh=128, maxval=1, type=cv2.THRESH_BINARY)
                 # apply ROI on the original image
-                new_img = img * roi
+                img[np.where((roi==[0,0,0]).all(axis=2))] = [0,0,255]
                 savename = folder + path[:-3] + "png"
-                cv2.imwrite(savename, new_img)
+                cv2.imwrite(savename, img)
                 print('ROI ' + savename + ' successfull!')
             print('Done!...')
             print('Remove ' + self.roiName)
