@@ -103,3 +103,12 @@ class selectROI():
         print("Done.")
         cv2.waitKey(0)
         cv2.destroyAllWindows()
+        with open("RoiPoints.txt", "w+") as f:
+            for x in self.refPt:
+                f.write(f'{round(x[0]/height,2)} {round(x[1]/width,2)}\n')
+
+if __name__ == '__main__':
+    imgF = 'E:/test'
+    sl = selectROI(imgF, replaceImg=False, scale=0.5)
+    sl.createROI()
+    

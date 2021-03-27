@@ -53,14 +53,14 @@ class MakeLabelSegmentation:
             self.left_mouse_down = False
         if self.left_mouse_down and self.mask.size>0 and self.img.size>0:
             if flags & cv2.EVENT_FLAG_SHIFTKEY:
-                cv2.circle(self.img, (x,y), self.radius, self.COLOR_ROI, -1)
+                # cv2.circle(self.img, (x,y), self.radius, self.COLOR_ROI, -1)
                 cv2.circle(self.mask, (x,y), self.radius, 0, -1)
             elif flags & cv2.EVENT_FLAG_CTRLKEY:
-                cv2.circle(self.img, (x,y), self.radius, self.COLOR_STREET, -1)
+                # cv2.circle(self.img, (x,y), self.radius, self.COLOR_STREET, -1)
                 cv2.circle(self.mask, (x,y), self.radius, 1, -1)
             elif flags:
                 #to mau neu nhan chuot trai
-                cv2.circle(self.img, (x,y), self.radius, self.COLOR_VEHICLE, -1)
+                # cv2.circle(self.img, (x,y), self.radius, self.COLOR_VEHICLE, -1)
                 cv2.circle(self.mask, (x,y), self.radius, 2, -1)
 
     def __init_mask(self):
@@ -73,7 +73,7 @@ class MakeLabelSegmentation:
             show_img = (self.img*alpha + color*(1-alpha)).astype('uint8')
             cv2.circle(show_img, self.cur_mouse, self.radius, (200,200,200), 2)
             cv2.imshow(self.windownname,show_img)
-            cv2.imshow('Review',color)
+            # cv2.imshow('Review',color)
             key = cv2.waitKey(100)
             if key == ord('q') or key == 27 or key==ord('s') or key==ord('p') or key==ord('n') or key == 10 or key == 13:
                 break
@@ -107,23 +107,27 @@ class MakeLabelSegmentation:
             print('process %s'%fimg)
             self.img = cv2.imread(self.imgPath)
             self.img = cv2.resize(self.img, (int(self.img.shape[1] * self.scale), int(self.img.shape[0] * self.scale)), interpolation = cv2.INTER_AREA)
+            
             if not os.path.isfile(self.maskPath):
                 self.mask = self.color2mask(self.img)
             else:
                 if(self.use_labeled):
                     self.mask = self.color2mask( cv2.resize(cv2.imread(self.maskPath), (self.img.shape[1], self.img.shape[0]), interpolation = cv2.INTER_AREA))
                 else:
-                    i+=1
-                    continue
+                    i+=1       
             key = self.process()
             if key == ord('s') or key == 10 or key == 13:
                 saveimg = os.path.join(save_dir, fimg[:-3] + "png")
                 cv2.imwrite(saveimg, cv2.resize(self.mask2color(self.mask),(int(self.img.shape[1] / self.scale), int(self.img.shape[0] / self.scale)), interpolation = cv2.INTER_AREA))
                 print('save label %s.'%saveimg)
                 i += 1
+                continue
             elif key == ord('p') and i>0:
                 i -= 1
+                continue
             elif key == ord('n') or key == 32:
                 i += 1
+                continue
             elif key == ord('q') or key == 27:
                 break
+            
