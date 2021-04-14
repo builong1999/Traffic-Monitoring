@@ -7,9 +7,8 @@ def denoise(frame):
         return frame
 
 class BackgroundRemover():
-    def __init__(self, alpha = 0.01, scale = 1, show = False):
+    def __init__(self, alpha = 0.01, scale = 1):
         self.alpha = alpha
-        self.show = show
         self.scale = scale
         
     def initSubtraction(self, firstFrame, secondFrame):
@@ -36,7 +35,7 @@ class BackgroundRemover():
         # index_frame += 1
         return mask
 
-    def remove_background_video(self, video_path):
+    def remove_background_video(self, video_path, show = False):
         cam = cv2.VideoCapture(video_path)
         width = cam.get(3)
         height = cam.get(4)
@@ -47,18 +46,20 @@ class BackgroundRemover():
             _, secondFrame = cam.read()
             secondFrame = cv2.resize(secondFrame,(int(width*self.scale), int(height*self.scale)))
             mask = self.initSubtraction(firstFrame, secondFrame)
-            if self.show:
+            if show:
                 cv2.imshow('frame', secondFrame)
                 cv2.imshow('mask', mask)
                 cv2.waitKey(1)
+            else:
+                print("predicted...")
             firstFrame = secondFrame
                
         cam.release()
         cv2.destroyAllWindows()
 
 if __name__ == "__main__":
-    br = BackgroundRemover(show=True, scale = 0.5)
-    br.remove_background_video("E:/test_focus.mp4")
+    br = BackgroundRemover(scale = 0.5)
+    br.remove_background_video("E:/test_focus.mp4", False)
 
 
 
