@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 import math
 
+scale = 0.75
 def find_length_2_points(p1,p2):
     return math.sqrt((p1[0]-p2[0])**2 + (p1[1] - p2[1])**2)
 
@@ -73,19 +74,20 @@ def points_to_line(points):
     w_1 = w[1][0]
     return round(w_0, 5), round(w_1, 5)
 
-cap = cv2.VideoCapture("E:/Thesis/Video/PVD-1.mp4")
+cap = cv2.VideoCapture("E:/Thesis/Video/PVT-2.mp4")
 width = cap.get(3)
 height = cap.get(4)
-height_resize = 720
-width_resize = int(width*height_resize*1.0/height)
+
+height_resize = int(height*scale)
+width_resize = int(width*scale)
 k = 1
 lines_rm = {}
 while True:
     _, frame = cap.read()
     #frame = cv2.resize(frame,(width_resize,height_resize))
     img = cv2.resize(frame, (width_resize, height_resize))
-    if height > width:
-        img = img[height_resize - width_resize:,:width_resize]
+    # if height > width:
+    #     img = img[height_resize - width_resize:,:width_resize]
     #show_image("Original", img)
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     # detect edges
@@ -107,45 +109,46 @@ while True:
     dot_color = [0, 255, 0]
     dot_size = 3
     points = []
-    #line_img = cv2.bitwise_and(line_img, line_img, mask = mask)
-    for line in lines:
-        poly = []
-        for x1, y1, x2, y2 in line:
-            if math.sqrt((x1-x2)**2 + (y1-y2)**2) < 70:
-                continue
-            points.append([(x1,y1),(x2,y2),math.sqrt((x1-x2)**2 + (y1-y2)**2)])
+    # for line in lines:
+    #     poly = []
+    #     for x1, y1, x2, y2 in line:
+    #         if math.sqrt((x1-x2)**2 + (y1-y2)**2) < 70:
+    #             continue
+    #         points.append([(x1,y1),(x2,y2),math.sqrt((x1-x2)**2 + (y1-y2)**2)])
 
-    points = sorted(points,key=lambda kv: kv[2],reverse=True)
-    for i in range(2):
-        p1, p2, d = points[i]
-        w0, w1 = points_to_line(points[i][0:2])
-        cv2.line(line_img, p1, p2, line_color, line_thickness)
-        if (w0,w1) not in lines_rm.keys():
-            lines_rm[(w0,w1)] = 1
-        else:
-            lines_rm[(w0,w1)] += 1
-    if k == 50: 
-        break
+    # points = sorted(points,key=lambda kv: kv[2],reverse=True)
+    # for i in range(2):
+    #     p1, p2, d = points[i]
+    #     w0, w1 = points_to_line(points[i][0:2])
+    #     cv2.line(line_img, p1, p2, line_color, line_thickness)
+    #     if (w0,w1) not in lines_rm.keys():
+    #         lines_rm[(w0,w1)] = 1
+    #     else:
+    #         lines_rm[(w0,w1)] += 1
+    # if k == 50: 
+    #     break
     overlay = cv2.addWeighted(img, 0.8, line_img, 1.0, 0.0)
+    cv2.imshow("overlay",gray)
+    cv2.waitKey(1)
     k += 1
 
-lines_rm = sorted(lines_rm.items(),key=lambda kv: kv[1], reverse=True)
+# lines_rm = sorted(lines_rm.items(),key=lambda kv: kv[1], reverse=True)
 
-l1 = lines_rm[0][0]
-points = []
-for i in range(1,len(lines_rm)):
-    l2 = lines_rm[i][0]
-    listfi = find_intersect(l1,l2,width_resize, height_resize)
-    if len(listfi) > 0:
-        points.append(listfi)
-points = sorted(points,key=lambda kv: kv[len(points[0])-1], reverse=True)
-mask = sort_point_to_poly(points[0][:len(points[0])-1],width_resize,height_resize)
-while True:
-    _, frame = cap.read()
-    img = cv2.resize(frame, (width_resize, height_resize))
-    if height > width:
-        img = img[height_resize - width_resize:,:width_resize]
-    cropped_image = region_of_interest(img, np.array([mask], np.int32),)
-    cv2.imshow('crop',cropped_image)
-    cv2.waitKey(1)
+# l1 = lines_rm[0][0]
+# points = []
+# for i in range(1,len(lines_rm)):
+#     l2 = lines_rm[i][0]
+#     listfi = find_intersect(l1,l2,width_resize, height_resize)
+#     if len(listfi) > 0:
+#         points.append(listfi)
+# points = sorted(points,key=lambda kv: kv[len(points[0])-1], reverse=True)
+# mask = sort_point_to_poly(points[0][:len(points[0])-1],width_resize,height_resize)
+# while True:
+#     _, frame = cap.read()
+#     img = cv2.resize(frame, (width_resize, height_resize))
+#     if height > width:
+#         img = img[height_resize - width_resize:,:width_resize]
+#     cropped_image = region_of_interest(img, np.array([mask], np.int32),)
+#     cv2.imshow('crop',cropped_image)
+#     cv2.waitKey(1)
    
